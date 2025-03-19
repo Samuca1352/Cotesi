@@ -78,6 +78,7 @@ gsap.to(sections,{
     scrollTrigger:{
         trigger: ".cont",
         start:"top top",
+        
         pin:true,
         scrub:1,
         snap: 1/(sections.length -1 ),
