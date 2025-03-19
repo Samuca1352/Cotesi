@@ -1,75 +1,81 @@
 <template>
-    <div class="bg-white border-gray-200 dark:bg-neutral-800 flex justify-center dark:text-white pt-10">
-        <div class="container ">
-            <HeaderPage></HeaderPage>
-        </div>
+    <div class="container">
+      <div class="text-container">
+        <h1 class="zooming-text">TEXTO EM CAIXA ALTA</h1>
+      </div>
+      <div class="content">
+        <p>Este é o conteúdo que rola após o efeito.</p>
+      </div>
     </div>
-    <div class="">
-    <div class="red h-screen panel flex items-center justify-center" style=" background-color: red;">
-                Espaço para simular conteúdo longo
-            </div>
-    <div class="blue h-screen panel  flex items-center justify-center" style=" background-color: blue;">
-                Mais espaço para simular conteúdo longo
-            </div>
-    <div class="pink h-screen panel  flex items-center justify-center" style=" background-color: pink;">
-                Mais espaço para simular conteúdo longo
-            </div>
-    <div class="black h-screen panel  flex items-center justify-center" style=" background-color: black;">
-                Mais espaço para simular conteúdo longo
-            </div>
-        </div>
-</template>
+  </template>
 <script setup>
-import HeaderPage from './components/HeaderPage.vue';
 import { gsap } from "gsap";
-import { onMounted } from 'vue';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { onMounted } from 'vue';
+
 gsap.registerPlugin(ScrollTrigger);
 
-
-
-
 onMounted(() => {
-    /*let tl = gsap.timeline({
+  let zoomingText = document.querySelector('.zooming-text');
+  let container = document.querySelector('.container');
+
+  gsap.to(zoomingText, {
+    scale: 10, // Aumenta o tamanho do texto
     scrollTrigger: {
-        trigger: ".c",
-        toggleActions: "restart pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
-        start: "top center", //elemento e página ou seja começa quando a parte de cima do elemento atinge o centro da pag
-        end: "bottom 100px",
-        scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
-        markers: true, //marcadores
-        pin: true, // fixa o elemento na tela enquanto realiza
+      trigger: '.text-container',
+      start: 'top top',
+      end: 'bottom top',
+      scrub: true, // Animação suave durante o scroll
+      pin: true, // Fixa o texto na tela
+      onUpdate: (self) => {
+        if (self.progress > 0.8) { // Altera a cor de fundo quando o zoom estiver quase completo
+          container.style.backgroundColor = '#000000'; // Muda para preto
+        } else {
+          container.style.backgroundColor = '#ffffff'; // Mantém branco antes do zoom completo
+        }
+      },
     },
+  });
 });
-    tl.to('.c', {
-
-        x: 400,
-        duration: 3,
-    });*/
-
-    /*ScrollTrigger.create({
-        trigger: ".red",
-        start:"top top",
-        end: "+=300px",
-        pinSpacing:false,
-        pin:true,
-    })*/
-
-    gsap.utils.toArray(".panel").forEach((panel, i)=>{
-        ScrollTrigger.create({
-        trigger: panel,
-        start:"top top",
-        pinSpacing:false,
-        pin:true,
-    })
-    })
-
-
-})
 </script>
 
+
 <style>
-body{
-    overflow-x: hidden ;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  min-height: 300vh; /* Altura mínima para simular scroll */
+  font-family: sans-serif;
+  background-color: #ffffff; /* Cor de fundo inicial branca */
+  transition: background-color 0.5s ease; /* Transição suave para a cor de fundo */
+}
+
+.text-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* Garante que o texto fique na frente */
+}
+
+.zooming-text {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #000000; /* Cor do texto inicial preta */
+}
+
+.content {
+  padding: 20px;
 }
 </style>
