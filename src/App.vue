@@ -5,7 +5,10 @@
       <HeaderPage></HeaderPage>
     </div>
   </div>
-  <div class="tudo">
+  <div id="ttudo">
+
+  
+  <div id="tudo">
     <div class="pages h-screen panel flex items-center justify-center" style="">
 
 
@@ -13,9 +16,11 @@
     <svg aria-label="Previous" class="fill-current size-4" slot="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M15.75 19.5 8.25 12l7.5-7.5"></path></svg>
     <svg aria-label="Next" class="fill-current size-4" slot="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path></svg>
     <calendar-month></calendar-month>
-  </calendar-range>
 
-    </div>
+  </calendar-range>
+  <button type="button" id="tes" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dark</button>
+
+</div>
     <div class="pages lg:flex md:flex">
       <div class="title panel h-screen text-gray-900 text-8xl flex items-center justify-center"
         style="font-family: 'TuskerGrotesk'; width: 50vw; ">
@@ -57,44 +62,60 @@
         </div>
       </div>
     </div>
-    <div class="black pages h-screen panel flex items-center justify-center" style="background-color: #0176ff; ">
+    <div id="tes" class="black pages h-screen panel flex items-center justify-center" style="background-color: #0176ff; ">
       Mais espaço para simular conteúdo longo
     </div>
   </div>
+</div>
 </template>
 <script setup>
 import "cally";
+
 import HeaderPage from './components/HeaderPage.vue';
 import { gsap } from "gsap";
 import { onMounted } from 'vue';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lenis from 'lenis'
 gsap.registerPlugin(ScrollTrigger);
 
 
 
-onMounted(() => {
 
+onMounted(() => {
+  
+
+// Initialize Lenis
+const lenis = new Lenis({
+  autoRaf: true,
+  duration: 2,
+  autoResize: true
+});
+
+// Listen for the scroll event and log the event data
+lenis.on('scroll', (e) => {
+  //algum comando ao scroll
+});
 
 
   let tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".test",
-        toggleActions: "restart pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
+        toggleActions: "resume pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
         start: "top center", //elemento e página ou seja começa quando a parte de cima do elemento atinge o centro da pag
         end: "bottom 50px",
         scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
     },
 });
-  let gl = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".description",
-        toggleActions: "restart pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
-        start: "top center", //elemento e página ou seja começa quando a parte de cima do elemento atinge o centro da pag
-        end: "bottom bottom",
-        scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
-        markers: true, //marcadores
-    },
-});
+//   let gl = gsap.timeline({
+//     scrollTrigger: {
+//         trigger: ".description",
+//         toggleActions: "restart pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
+//         start: "top center", //elemento e página ou seja começa quando a parte de cima do elemento atinge o centro da pag
+//         end: "bottom bottom",
+//         scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
+//         markers: true, //marcadores
+//     },
+// });
 
 
 tl.from('.test', {
@@ -103,10 +124,10 @@ x: -100,
 duration: 3,
 });
 
-gl.to('.description', {
-y:-230,
-duration: 1,
-});
+// gl.to('.description', {
+// y:-230,
+// duration: 1,
+// });
 
   const larguraTela = window.innerWidth;
 
@@ -126,11 +147,7 @@ duration: 1,
       });
     }
 
- tl.to('.c', {
 
-        x: 400,
-        duration: 3,
-    });
 
     window.addEventListener('resize', verificaTela);
   }
