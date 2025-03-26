@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@plugin "daisyui";
 
 .bg-black{
     background-color: #181818;
@@ -11,3 +10,18 @@
     font-weight: bold; /* Peso da fonte */
     font-style: normal; /* Estilo da fonte */
   }
+
+  @media (width <= 48rem) {
+  .cards{
+    position: relative;
+    margin-top: -60px;
+  }
+
+}
+
+@media (width >= 48rem) {
+
+    .cards{
+
+    }
+}

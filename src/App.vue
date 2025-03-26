@@ -63,7 +63,7 @@
     </div>
     <div class="pages h-auto min-h-screen p-15 panel flex items-center justify-center" >
 
-<CalendarDate></CalendarDate>
+<CalendarDate id="calendar"></CalendarDate>
 
       
       <!-- <p>Selected range: {{ selected }}</p>
@@ -94,21 +94,21 @@ gsap.registerPlugin(ScrollTrigger);
 const selected = "2025-05-08/2025-05-16"
 
 
-
 onMounted(() => {
-
-
-// Initialize Lenis
-const lenis = new Lenis({
-  autoRaf: true,
-  duration: 2,
-  autoResize: true
-});
-
+  
+  
+  // Initialize Lenis
+  const lenis = new Lenis({
+    autoRaf: true,
+    duration: 2,
+    autoResize: true
+  });
+  
+ 
 // Synchronize Lenis scrolling with GSAP's ScrollTrigger plugin
 lenis.on('scroll', ScrollTrigger.update);
 
-//lenis.scrollTo("#tesxc")
+//lenis.scrollTo("#calendar")
 
   let tl = gsap.timeline({
     scrollTrigger: {
