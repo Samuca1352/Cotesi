@@ -12,13 +12,8 @@
     <div class="pages h-screen panel flex items-center justify-center" style="">
 
 
-  <calendar-range class="cally bg-base-100 border border-base-300 shadow-lg rounded-box" value="2025-05-08/2025-05-16">
-    <svg aria-label="Previous" class="fill-current size-4" slot="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M15.75 19.5 8.25 12l7.5-7.5"></path></svg>
-    <svg aria-label="Next" class="fill-current size-4" slot="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path></svg>
-    <calendar-month></calendar-month>
 
-  </calendar-range>
-  <button type="button" id="tes" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dark</button>
+  
 
 </div>
     <div class="pages lg:flex md:flex">
@@ -29,6 +24,7 @@
           O QUE É COTESI?
         </div>
       </div>
+      
       <div class="description panel flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
         <div class="p">
           O IX Congresso de Tecnologia e Sistemas de Informação (COTESI) é um evento concebido pelo corpo docente da
@@ -62,9 +58,24 @@
         </div>
       </div>
     </div>
-    <div id="tes" class="black pages h-screen panel flex items-center justify-center" style="background-color: #0176ff; ">
+    <div id="tesxc" class="black pages h-screen panel flex items-center justify-center" style="background-color: #0176ff; ">
       Mais espaço para simular conteúdo longo
     </div>
+    <div class="pages h-auto min-h-screen p-15 panel flex items-center justify-center" >
+
+<CalendarDate></CalendarDate>
+
+      
+      <!-- <p>Selected range: {{ selected }}</p>
+  <calendar-range id="calendar" v-model.lazy="selected" class="cally bg-base-100 border border-base-300 shadow-lg rounded-box" value="2025-05-08/2025-05-16">
+    <svg aria-label="Previous" class="fill-current size-4" slot="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M15.75 19.5 8.25 12l7.5-7.5"></path></svg>
+    <svg aria-label="Next" class="fill-current size-4" slot="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path></svg>
+    <calendar-month value="2025-04-08/2025-05-16"></calendar-month>
+
+  </calendar-range> -->
+  
+
+</div>
   </div>
 </div>
 </template>
@@ -73,16 +84,19 @@ import "cally";
 
 import HeaderPage from './components/HeaderPage.vue';
 import { gsap } from "gsap";
-import { onMounted } from 'vue';
+import {  onMounted } from 'vue';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from 'lenis'
+import CalendarDate from "./components/CalendarDate.vue";
 gsap.registerPlugin(ScrollTrigger);
 
+
+const selected = "2025-05-08/2025-05-16"
 
 
 
 onMounted(() => {
-  
+
 
 // Initialize Lenis
 const lenis = new Lenis({
@@ -91,11 +105,10 @@ const lenis = new Lenis({
   autoResize: true
 });
 
-// Listen for the scroll event and log the event data
-lenis.on('scroll', (e) => {
-  //algum comando ao scroll
-});
+// Synchronize Lenis scrolling with GSAP's ScrollTrigger plugin
+lenis.on('scroll', ScrollTrigger.update);
 
+//lenis.scrollTo("#tesxc")
 
   let tl = gsap.timeline({
     scrollTrigger: {
