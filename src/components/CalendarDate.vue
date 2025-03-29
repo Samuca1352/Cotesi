@@ -27,7 +27,7 @@
           <button id="day-9" class="p-2">9</button>
           <button id="day-10" class="p-2">10</button>
           <button id="day-11" class="p-2">11</button>
-          <button id="day-12" v-on:load="selectDay(12)" @click="selectDay(12)" class="p-2 bg-blue-600 first-date"
+          <button id="day-12" @click="selectDay(12)" class="p-2 bg-blue-600 first-date"
             :class="{ selected: selectedDay === 12 && hasBlueBg(12) }">12</button>
           <button id="day-13" @click="selectDay(13)" class="p-2 bg-blue-600"
             :class="{ selected: selectedDay === 13 && hasBlueBg(13) }">13</button>
@@ -72,16 +72,16 @@
         <div id="content-12" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
 
 
-          <div href="#"
+          <div
             class="flex sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  dark:bg-gray-800 dark:hover:bg-gray-700"
             style="background-color: #0176ff; ">
-          
+
                 <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
               src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
               style="position: relative; top:-60px; ">
 
-          
-          
+
+
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-white">Noteworthy
@@ -94,15 +94,17 @@
                 Inscreva-se
               </button>
             </div>
-
           </div>
+
+
           <div href="#"
-            class="flex sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="flex sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-25 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  dark:bg-gray-800 dark:hover:bg-gray-700"
             style="background-color: #0176ff; ">
 
                 <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+              src="C:\Users\samuelcardoso\Downloads\Design sem nome (1).png" style="position: relative; top:-60px; ">
+
+
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -310,6 +312,7 @@
 
       <!--item 5 //  DIA 16 -->
       <div class="border-b border-slate-200 ">
+
         <button v-on:click="toggleAccordion(16)" class="w-full flex justify-between items-center py-5 text-slate-800">
           <span>Dia 5: Fechamento / 16 de Maio</span>
           <span id="icon-16" class="text-slate-800 transition-transform duration-300">
@@ -388,6 +391,7 @@ onMounted(() => {
 function selectDay(day) {
   selectedDay.value = day;
   toggleAccordion(day)
+
 }
 
 function hasBlueBg(day) {
@@ -436,6 +440,8 @@ function toggleAccordion(index) {
     content.style.maxHeight = content.scrollHeight + 'px';
     icon.innerHTML = upSVG;
   }
+
+
 }
 
 </script>
@@ -466,10 +472,4 @@ button.selected {
   background-color: #e2e4e6;
   color: black;
 }
-
-
-
-
-
-
 </style>
