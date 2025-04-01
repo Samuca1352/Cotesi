@@ -1,5 +1,5 @@
 <template>
-  <div class=" border-gray-200  flex justify-center  pt-10">
+  <div class=" border-gray-200  flex justify-center  pt-3">
     <div class="container">
       <HeaderPage></HeaderPage>
     </div>
@@ -10,7 +10,7 @@
     <div id="tudo">
       <div class="pages h-screen panel flex items-center justify-center">
 
-
+<img src="./img/logo.png" alt="">
         
         
       </div>
@@ -61,7 +61,7 @@ const larguraTela = screen.width;
   // Initialize Lenis
   const lenis = new Lenis({
     autoRaf: true,
-    duration: 2,
+    duration: 1.2,
     autoResize: true
   });
 
