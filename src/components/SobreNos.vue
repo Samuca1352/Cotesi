@@ -1,5 +1,5 @@
 <template>
-    <div class="pages lg:flex md:flex">
+    <div class="pages pagetitle lg:flex md:flex">
         <div class="title panel h-screen text-gray-900 text-8xl flex items-center justify-center"
             style="font-family: 'TuskerGrotesk'; width: 50vw; ">
             <div id="title" class="test text-wrap">
@@ -69,11 +69,12 @@ function verificaTela() {
 
 function initGsapTitle() {
   if (verificaTela() && !titleTimeline) {
+
     titleTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "#title",
         toggleActions: "resume pause reverse pause",
-        start: "top center",
+        start: "bottom center",
         end: "bottom 50px",
         scrub: 3,
         markers: true,
@@ -86,34 +87,36 @@ function initGsapTitle() {
     });
 
     pinTrigger = ScrollTrigger.create({
-      trigger: "#title", // Pinar o elemento do título
+      id: "pinTrigger", // Adicione um ID para facilitar a busca
+      trigger: ".title",
+      endTrigger: ".description",
       start: "top top",
-      end: "bottom 65%", // Ajuste a porcentagem conforme necessário
+      end: "bottom 65%",
       pin: true,
       markers: true,
       invalidateOnRefresh: true,
     });
 
-  } else if (!verificaTela() && titleTimeline) {
-    titleTimeline.kill();
-    titleTimeline = null;
+  } else if (!verificaTela()) {
+    if (titleTimeline) {
+      titleTimeline.kill();
+      titleTimeline = null;
+    }
     if (pinTrigger) {
       pinTrigger.kill();
       pinTrigger = null;
     }
     gsap.to('#title', { clearProps: "x, position, top, left, bottom, right, width" }); // Limpa as props de pin
-  } else if (verificaTela() && titleTimeline && pinTrigger) {
-    if (!ScrollTrigger.getById("pinTrigger")) {
-      pinTrigger = ScrollTrigger.create({
-        id: "pinTrigger",
-        trigger: "#title", // Pinar o elemento do título
-        start: "top top",
-        end: "bottom 65%", // Ajuste a porcentagem conforme necessário
-        pin: true,
-        markers: true,
-        invalidateOnRefresh: true,
-      });
-    }
+  } else if (verificaTela() && titleTimeline && !ScrollTrigger.getById("pinTrigger")) {
+    pinTrigger = ScrollTrigger.create({
+      id: "pinTrigger",
+      trigger: ".title",
+      start: "top top",
+      end: "bottom 65%",
+      pin: true,
+      markers: true,
+      invalidateOnRefresh: true,
+    });
   }
 }
 
@@ -122,6 +125,7 @@ onMounted(() => {
   initGsapTitle();
 
   window.addEventListener('resize', () => {
+    
     larguraTela.value = window.innerWidth;
     initGsapTitle();
   });
