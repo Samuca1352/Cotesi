@@ -142,8 +142,11 @@
         </button>
         <div id="content-13" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
           <div href="#"
-            class="flex sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  dark:bg-gray-800 dark:hover:bg-gray-700"
-            style="background-color: #0176ff; ">
+          class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  dark:bg-gray-800 dark:hover:bg-gray-700"
+          style="background-color: #0176ff; ">
+          <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
+            08:00 - 10:00h
+          </div>
 
                 <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
               src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
@@ -164,9 +167,11 @@
 
           </div>
           <div href="#"
-            class="flex sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  dark:bg-gray-800 dark:hover:bg-gray-700"
-            style="background-color: #0176ff; ">
-
+            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  dark:bg-gray-800 dark:hover:bg-gray-700"
+            style="background-color: #002b5e; ">
+            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
+            10:30 - 12:00h
+          </div>
                 <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
               src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
               style="position: relative; top:-60px; ">
@@ -176,7 +181,7 @@
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-white">Noteworthy
                 technology acquisitions 2021</h5>
 
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-900">Here are the biggest enterprise
+              <p class="mb-3 font-normal text-gray-700 dark:text-white">Here are the biggest enterprise
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
@@ -471,5 +476,9 @@ button.bg-blue-600:hover {
 button.selected {
   background-color: #e2e4e6;
   color: black;
+}
+.horario{
+  top: 175px;
+  left: 0;
 }
 </style>

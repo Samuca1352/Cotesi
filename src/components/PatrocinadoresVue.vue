@@ -1,52 +1,63 @@
 <template>
   <div class="h-full">
-    <swiper :slides-per-view="3" :breakpoints="{768: {slidesPerView: 5, },
+    <swiper v-if="larguraTela <= 768" :slides-per-view="3" :breakpoints="{768: {slidesPerView: 5,  },  
     }" 
     :centered-slides="true"
     :loop="true"
-    :Autoplay="true"
-    :navigation="{ hideOnClick:true}"
+    :autoplay="{ // Configurações do autoplay
+        delay: 2000, // Tempo em milissegundos entre os slides (opcional, padrão é 3000)
+        disableOnInteraction: false, // Permite que o autoplay continue mesmo após a interação do usuário (opcional, padrão é true)
+        pauseOnMouseEnter: true, // Pausa o autoplay ao passar o mouse (opcional, padrão é false)
+        // reverseDirection: false, // Descomente para inverter a direção (opcional, padrão é false)
+      }"
+    :navigation="navigationEnabled ? { hideOnClick: true } : larguraTela>768"
     :pagination="{
       hideOnClick: true
     }"
-      class="h-full select-none">
+      class="h-full select-none ">
+
+
+
+      
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper"><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
       </swiper-slide>
     </swiper>
+
+    
   </div>
 </template>
 <script setup>
@@ -55,15 +66,13 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 
 // import Swiper core and required modules
 // swiper bundle styles
+import "swiper/element/css/autoplay"
 import "swiper/css/bundle";
-import { onMounted } from 'vue';
-import { Autoplay } from "swiper/modules";
+import { onMounted,ref } from 'vue';
 
 
-
-
+const larguraTela = ref(window.innerWidth); // Usar ref para reatividade
 onMounted(() => {
-
 
 })
 
@@ -71,11 +80,14 @@ onMounted(() => {
 </script>
 <style scoped>
 .ts-swiper {
-  text-align: center;
-  padding: 5vh;
+  max-width: 200px; /* Ajuste este valor conforme necessário */
+  margin-left: auto;
+  margin-right: auto; /* Para centralizar o conteúdo dentro do slide */
+  
 }
-
-
+.swiper-button-disabled{
+  overflow: hidden;
+}
 
 
 .swiper-slide {
@@ -85,8 +97,9 @@ onMounted(() => {
 }
 
 .swiper-slide-active {
-  transform: scale(1.5); /* Aumenta o tamanho do slide ativo em 10% */
+  transform: scale(1.3); /* Aumenta o tamanho do slide ativo em 10% */
   opacity: 1; /* Garante que o slide ativo esteja totalmente visível */
   z-index: 1; /* Garante que o slide ativo não seja sobreposto pelos vizinhos */
+  transform: translateY(-2px);
 }
 </style>

@@ -51,18 +51,110 @@
         </div>
     </div>
 </template>
+
 <script setup>
-import { onMounted } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+const larguraTela = ref(window.innerWidth);
+let titleTimeline = null;
+let pinTrigger = null;
+
+function verificaTela() {
+  return larguraTela.value > 800;
+}
+
+function initGsapTitle() {
+  if (verificaTela() && !titleTimeline) {
+    titleTimeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#title",
+        toggleActions: "resume pause reverse pause",
+        start: "top center",
+        end: "bottom 50px",
+        scrub: 3,
+        markers: true,
+      },
+    });
+
+    titleTimeline.from('#title', {
+      x: -100,
+      duration: 3,
+    });
+
+    pinTrigger = ScrollTrigger.create({
+      trigger: "#title", // Pinar o elemento do título
+      start: "top top",
+      end: "bottom 65%", // Ajuste a porcentagem conforme necessário
+      pin: true,
+      markers: true,
+      invalidateOnRefresh: true,
+    });
+
+  } else if (!verificaTela() && titleTimeline) {
+    titleTimeline.kill();
+    titleTimeline = null;
+    if (pinTrigger) {
+      pinTrigger.kill();
+      pinTrigger = null;
+    }
+    gsap.to('#title', { clearProps: "x, position, top, left, bottom, right, width" }); // Limpa as props de pin
+  } else if (verificaTela() && titleTimeline && pinTrigger) {
+    if (!ScrollTrigger.getById("pinTrigger")) {
+      pinTrigger = ScrollTrigger.create({
+        id: "pinTrigger",
+        trigger: "#title", // Pinar o elemento do título
+        start: "top top",
+        end: "bottom 65%", // Ajuste a porcentagem conforme necessário
+        pin: true,
+        markers: true,
+        invalidateOnRefresh: true,
+      });
+    }
+  }
+}
+
+onMounted(() => {
+  larguraTela.value = window.innerWidth;
+  initGsapTitle();
+
+  window.addEventListener('resize', () => {
+    larguraTela.value = window.innerWidth;
+    initGsapTitle();
+  });
+});
+
+onUnmounted(() => {
+  if (titleTimeline) {
+    titleTimeline.kill();
+    titleTimeline = null;
+  }
+  if (pinTrigger) {
+    pinTrigger.kill();
+    pinTrigger = null;
+  }
+  window.removeEventListener('resize', () => {});
+});
+</script>
+
+
+<!-- <script setup>
+import { onMounted, ref } from 'vue';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-
+const larguraTela = ref(window.innerWidth); // Usar ref para reatividade
+let tl = null;
+let pintl=null;
 onMounted(() => {
     function gsaptitle() {
 
         if (verificaTela()) {
-            let tl = gsap.timeline({
+            tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: "#title",
                     toggleActions: "resume pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
@@ -71,7 +163,7 @@ onMounted(() => {
                     scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
                 },
             });
-            ScrollTrigger.create({
+            pintl = ScrollTrigger.create({
                 trigger: ".title",
                 endTrigger: ".description",
                 start: "top top",
@@ -96,6 +188,15 @@ onMounted(() => {
                 x: -100,
                 duration: 3,
             });
+        } else if(!verificaTela() && tl){
+            tl.kill();
+            tl = null;
+            // Reseta os estilos do elemento, se necessário
+            gsap.to('#title', { clearProps: "x" });
+            if (pintl) {
+                pintl.kill();
+                pintl = null;
+            }
         }
     }
     // gl.to('.description', {
@@ -106,20 +207,23 @@ onMounted(() => {
 
 
     function verificaTela() {
-        const larguraTela = window.innerWidth;
-
-        if (larguraTela > 768) {
-            return true;
-        }
-
-        return false
-
+        return larguraTela.value > 800;
     }
 
+
+    larguraTela.value = window.innerWidth;
+
+    // Inicializa o GSAP Calendar
     gsaptitle();
+
+    // Adiciona listener para redimensionamento da tela
+    window.addEventListener('resize', () => {
+        larguraTela.value = window.innerWidth;
+        gsaptitle();
+    });
 })
 
-</script>
+</script> -->
 <style lang="">
 
 </style>

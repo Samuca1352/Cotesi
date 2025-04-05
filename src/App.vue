@@ -25,7 +25,7 @@
         <CalendarDate id="calendar"></CalendarDate>
 
 
-                      <!-- <p>Selected range: {{ selected }}</p>
+        <!-- <p>Selected range: {{ selected }}</p>
                 <calendar-range id="calendar" v-model.lazy="selected" class="cally bg-base-100 border border-base-300 shadow-lg rounded-box" value="2025-05-08/2025-05-16">
                   <svg aria-label="Previous" class="fill-current size-4" slot="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M15.75 19.5 8.25 12l7.5-7.5"></path></svg>
                   <svg aria-label="Next" class="fill-current size-4" slot="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path></svg>
@@ -35,12 +35,14 @@
 
 
       </div>
-<div class="p-14"><PatrocinadoresVue></PatrocinadoresVue></div>
-      
+      <div class="p-1 md:p-14">
+        <PatrocinadoresVue></PatrocinadoresVue>
+      </div>
+
     </div>
   </div>
 </template>
-<script setup>
+<!-- <script setup>
 
 import HeaderPage from './components/HeaderPage.vue';
 import { gsap } from "gsap";
@@ -95,6 +97,11 @@ onMounted(() => {
         x: 600,
         rotation: 50
       })
+    } else {
+
+      tl.kill();
+      tl=null;
+      gsap.to('#pcalendar', { clearProps: "x, rotation" });
     }
   }
 
@@ -121,8 +128,88 @@ onMounted(() => {
 });
 
 
-</script>
+</script> -->
 
+<script setup>
+import HeaderPage from './components/HeaderPage.vue';
+import { gsap } from "gsap";
+import { onMounted, onUnmounted, ref } from 'vue';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lenis from 'lenis';
+import CalendarDate from "./components/CalendarDate.vue";
+import SobreNos from "./components/SobreNos.vue";
+import PatrocinadoresVue from "./components/PatrocinadoresVue.vue";
+
+gsap.registerPlugin(ScrollTrigger);
+
+const selected = "2025-05-08/2025-05-16";
+const larguraTela = ref(window.innerWidth); // Usar ref para reatividade
+let calendarTimeline = null; // Variável para armazenar a timeline do GSAP
+
+function verificaTela() {
+  return larguraTela.value > 768;
+}
+
+function initGsapCalendar() {
+  if (verificaTela() && !calendarTimeline) {
+    calendarTimeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#pcalendar",
+        toggleActions: "resume pause reverse pause",
+        start: "top center",
+        end: "top center",
+        scrub: 3,
+        markers: true,
+      },
+    });
+
+    calendarTimeline.from('#pcalendar', {
+      x: 600,
+      rotation: 50,
+    });
+  } else if (!verificaTela() && calendarTimeline) {
+    // Mata a timeline se a tela for menor que 768px
+    calendarTimeline.kill();
+    calendarTimeline = null;
+    // Reseta os estilos do elemento, se necessário
+    gsap.to('#pcalendar', { clearProps: "x, rotation" });
+  }
+}
+
+onMounted(() => {
+  // Inicializa Lenis
+  const lenis = new Lenis({
+    autoRaf: true,
+    duration: 1.2,
+    autoResize: true,
+  });
+
+  // Sincroniza Lenis scrolling com GSAP's ScrollTrigger plugin
+  lenis.on('scroll', ScrollTrigger.update);
+
+  // Atualiza a largura da tela no mount
+  larguraTela.value = window.innerWidth;
+
+  // Inicializa o GSAP Calendar
+  initGsapCalendar();
+
+  // Adiciona listener para redimensionamento da tela
+  window.addEventListener('resize', () => {
+    larguraTela.value = window.innerWidth;
+    initGsapCalendar();
+  });
+});
+
+onUnmounted(() => {
+  // Remove o listener de redimensionamento ao desmontar o componente
+  window.removeEventListener('resize', () => {});
+  // Mata a timeline se o componente for desmontado
+  if (calendarTimeline) {
+    calendarTimeline.kill();
+    calendarTimeline = null;
+  }
+});
+</script>
 <style>
 body {
   overflow-x: hidden;
