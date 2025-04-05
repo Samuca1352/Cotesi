@@ -10,31 +10,33 @@
     <div id="tudo">
       <div class="pages h-screen panel flex items-center justify-center">
 
-<img src="./img/logo.png" alt="">
-        
-        
+        <img src="./img/logo.png" alt="">
+
+
       </div>
-      
+
       <div id="tesxc" class="black pages h-screen panel flex items-center justify-center"
-      style="background-color: #0176ff; ">
-      Mais espaço para simular conteúdo longo
-    </div>
-    <SobreNos></SobreNos>
+        style="background-color: #0176ff; ">
+        Mais espaço para simular conteúdo longo
+      </div>
+      <SobreNos></SobreNos>
       <div id="pcalendar" class="pages h-auto min-h-screen p-15 panel flex items-center justify-center">
 
         <CalendarDate id="calendar"></CalendarDate>
 
 
-        <!-- <p>Selected range: {{ selected }}</p>
-  <calendar-range id="calendar" v-model.lazy="selected" class="cally bg-base-100 border border-base-300 shadow-lg rounded-box" value="2025-05-08/2025-05-16">
-    <svg aria-label="Previous" class="fill-current size-4" slot="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M15.75 19.5 8.25 12l7.5-7.5"></path></svg>
-    <svg aria-label="Next" class="fill-current size-4" slot="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path></svg>
-    <calendar-month value="2025-04-08/2025-05-16"></calendar-month>
+                      <!-- <p>Selected range: {{ selected }}</p>
+                <calendar-range id="calendar" v-model.lazy="selected" class="cally bg-base-100 border border-base-300 shadow-lg rounded-box" value="2025-05-08/2025-05-16">
+                  <svg aria-label="Previous" class="fill-current size-4" slot="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M15.75 19.5 8.25 12l7.5-7.5"></path></svg>
+                  <svg aria-label="Next" class="fill-current size-4" slot="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path></svg>
+                  <calendar-month value="2025-04-08/2025-05-16"></calendar-month>
 
-  </calendar-range> -->
+                </calendar-range> -->
 
 
       </div>
+<div class="p-14"><PatrocinadoresVue></PatrocinadoresVue></div>
+      
     </div>
   </div>
 </template>
@@ -47,6 +49,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from 'lenis'
 import CalendarDate from "./components/CalendarDate.vue";
 import SobreNos from "./components/SobreNos.vue";
+import PatrocinadoresVue from "./components/PatrocinadoresVue.vue";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -55,7 +58,7 @@ const selected = "2025-05-08/2025-05-16"
 
 onMounted(() => {
 
-const larguraTela = screen.width;
+  const larguraTela = screen.width;
 
 
   // Initialize Lenis
@@ -65,53 +68,53 @@ const larguraTela = screen.width;
     autoResize: true
   });
 
-  
+
   // Synchronize Lenis scrolling with GSAP's ScrollTrigger plugin
   lenis.on('scroll', ScrollTrigger.update);
 
   //lenis.scrollTo("#calendar")
-function gsapcalendar(){
+  function gsapcalendar() {
 
 
-if (verificaTela()){
+    if (verificaTela()) {
 
-  let tl = gsap.timeline({
+      let tl = gsap.timeline({
         scrollTrigger: {
-            trigger: "#pcalendar",
-            toggleActions: "resume pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
-            start: "top center", //elemento e página ou seja começa quando a parte de cima do elemento atinge o centro da pag
-            end: "top center",
-            scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
-            markers:true,
+          trigger: "#pcalendar",
+          toggleActions: "resume pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
+          start: "top center", //elemento e página ou seja começa quando a parte de cima do elemento atinge o centro da pag
+          end: "top center",
+          scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
+          markers: true,
         },
-    });
-  
-  
-    tl.from('#pcalendar', {
-      
+      });
+
+
+      tl.from('#pcalendar', {
+
         x: 600,
-        rotation:50
-    })
-}
-}
+        rotation: 50
+      })
+    }
+  }
 
 
 
-function verificaTela() {
-        const larguraTela = window.innerWidth;
+  function verificaTela() {
+    const larguraTela = window.innerWidth;
 
-        if (larguraTela > 768) {
-            return true;
-        }
-
-        return false
-
+    if (larguraTela > 768) {
+      return true;
     }
 
-    window.addEventListener('resize', gsapcalendar);
+    return false
+
+  }
+
+  window.addEventListener('resize', gsapcalendar);
 
 
-gsapcalendar()
+  gsapcalendar()
 
 
 
