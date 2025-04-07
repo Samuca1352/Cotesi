@@ -102,7 +102,7 @@
             style="background-color: #0176ff; ">
 
                 <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="C:\Users\samuelcardoso\Downloads\Design sem nome (1).png" style="position: relative; top:-60px; ">
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png" style="position: relative; top:-60px; ">
 
 
 

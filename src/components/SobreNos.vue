@@ -1,55 +1,49 @@
 <template>
-    <div class="pages pagetitle lg:flex md:flex">
-        <div class="title panel h-screen text-gray-900 text-8xl flex items-center justify-center"
-            style="font-family: 'TuskerGrotesk'; width: 50vw; ">
-            <div id="title" class="test text-wrap">
+  <div class="pages pagetitle lg:flex md:flex">
+    <div class="title panel h-screen text-gray-900 text-8xl flex items-center justify-center"
+      style="font-family: 'TuskerGrotesk'; width: 50vw; ">
+      <div id="title" class="test text-wrap">
 
-                O QUE É COTESI?
-            </div>
-        </div>
-
-        <div class="description panel flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
-            <div class="p">
-                O IX Congresso de Tecnologia e Sistemas de Informação (COTESI) é um evento concebido pelo corpo docente
-                da
-                área
-                de informática do Câmpus Votuporanga. O COTESI é constituído por palestras e minicursos.
-            </div>
-            <div class="p mt-10">
-                Atualmente a Comissão Organizadora é composta por representantes do corpo docente e discente dos cursos
-                de
-                graduação de Sistemas de Informação instituída pela portaria nº. VTP.15/2024, de 21 de fevereiro de
-                2024.
-            </div>
-            <div class="p mt-10 ultimo">
-                Este evento tem como intuito complementar a formação acadêmica dos alunos e discutir temas atuais da
-                área da
-                Tecnologia da Informação relacionados com o Ensino, Pesquisa e Extensão, além de fatos e episódios
-                recentes
-                relacionados a aspectos transversais, como Meio Ambiente & Sustentabilidade e Responsabilidade Social. O
-                evento
-                é gratuito e aberto à comunidade.
-            </div>
-            <div class="p mt-10 ultimo">
-                Este evento tem como intuito complementar a formação acadêmica dos alunos e discutir temas atuais da
-                área da
-                Tecnologia da Informação relacionados com o Ensino, Pesquisa e Extensão, além de fatos e episódios
-                recentes
-                relacionados a aspectos transversais, como Meio Ambiente & Sustentabilidade e Responsabilidade Social. O
-                evento
-                é gratuito e aberto à comunidade.
-            </div>
-            <div class="p mt-10 ultimo">
-                Este evento tem como intuito complementar a formação acadêmica dos alunos e discutir temas atuais da
-                área da
-                Tecnologia da Informação relacionados com o Ensino, Pesquisa e Extensão, além de fatos e episódios
-                recentes
-                relacionados a aspectos transversais, como Meio Ambiente & Sustentabilidade e Responsabilidade Social. O
-                evento
-                é gratuito e aberto à comunidade.
-            </div>
-        </div>
+        O QUE É COTESI?
+      </div>
     </div>
+
+    <div class="description panel flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
+      <div class="description panel flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
+        <div class="p">
+          O X Congresso de Tecnologia e Sistemas de Informação (COTESI) é uma iniciativa do corpo docente e dicente da área tecnológica
+          do Câmpus Votuporanga. Este evento compreende a realização de palestras e minicursos direcionados
+          ao
+          campo da tecnologia, com o intuito de disseminar conhecimento e promover a interação entre acadêmicos e a
+          comunidade.
+        </div>
+        <div class="p mt-10">
+          A organização do COTESI está a cargo de uma comissão designada, composta por representantes do corpo docente e
+          discente dos cursos de graduação em Sistemas de Informação. Este esforço conjunto visa assegurar a relevância
+          e a
+          qualidade do evento para todos os participantes.
+        </div>
+        <div class="p mt-10">
+          O congresso tem como objetivo principal complementar a formação acadêmica dos estudantes, proporcionando um
+          panorama das tendências e das práticas no setor de Tecnologia da Informação. As palestras e minicursos
+          abordarão
+          temáticas relacionadas ao Ensino, à Pesquisa e à Extensão, pilares fundamentais da educação superior.
+        </div>
+        <div class="p mt-10">
+          Adicionalmente, o COTESI dedicará espaço à discussão de temas transversais de significativa importância
+          social e ambiental, como Meio Ambiente & Sustentabilidade e Responsabilidade Social, reconhecendo a relevância
+          destes aspectos para a formação integral dos participantes.
+        </div>
+        <div class="p mt-10 ultimo">
+          Este evento é oferecido de forma gratuita e aberta à participação de toda a comunidade interessada em
+          tecnologia
+          e áreas correlatas. Convidamos você a aproveitar esta oportunidade para expandir seus conhecimentos,
+          estabelecer
+          conexões e participar de um debate enriquecedor. <span class="font-bold">Sua presença é valiosa!</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
@@ -91,7 +85,7 @@ function initGsapTitle() {
       trigger: ".title",
       endTrigger: ".description",
       start: "top top",
-      end: "bottom 65%",
+      end: "bottom 70%",
       pin: true,
       markers: true,
       invalidateOnRefresh: true,
@@ -125,7 +119,7 @@ onMounted(() => {
   initGsapTitle();
 
   window.addEventListener('resize', () => {
-    
+
     larguraTela.value = window.innerWidth;
     initGsapTitle();
   });
@@ -140,7 +134,7 @@ onUnmounted(() => {
     pinTrigger.kill();
     pinTrigger = null;
   }
-  window.removeEventListener('resize', () => {});
+  window.removeEventListener('resize', () => { });
 });
 </script>
 

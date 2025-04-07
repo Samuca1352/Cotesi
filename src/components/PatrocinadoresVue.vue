@@ -1,6 +1,9 @@
 <template>
-  <div class="h-full">
-    <swiper v-if="larguraTela <= 768" :slides-per-view="3" :breakpoints="{768: {slidesPerView: 5,  },  
+  <div  class="h-full w-full mb-15">
+
+    <h3 class="relative text-center mb-4 font-black  text-gray-800 sm:text-5xl xl:mb-8 mb-5">APOIADORES</h3>
+
+    <swiper   :slides-per-view="3" :breakpoints="{768: {slidesPerView: 5,  },  
     }" 
     :centered-slides="true"
     :loop="true"
@@ -14,9 +17,7 @@
     :pagination="{
       hideOnClick: true
     }"
-      class="h-full select-none ">
-
-
+      class="h-full overflow-x-hidden w-full select-none ">
 
       
       <swiper-slide>
@@ -70,10 +71,11 @@ import "swiper/element/css/autoplay"
 import "swiper/css/bundle";
 import { onMounted,ref } from 'vue';
 
+const autoplayConfig = ref(false); // Inicialmente desabilitado
 
 const larguraTela = ref(window.innerWidth); // Usar ref para reatividade
 onMounted(() => {
-
+  
 })
 
 
