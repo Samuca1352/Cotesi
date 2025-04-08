@@ -5,9 +5,17 @@
             <div class="max-w-3xl mx-auto">
                 <div class="bg-white w-60 mx-auto rounded">
                 <img class="h-20 mx-auto" src="../img/logo.png">
-
-                
-            </div>
+                  
+              </div>
+              <div class="flex mx-auto w-full justify-center items-center flex-col">
+              <h3 class='text-center text-xl'>Realização:</h3>
+              <div class="flex flex-1 mt-5">
+  <p class="pe-6">Text</p>
+  <div
+    class="h-[25px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-white-500 to-transparent  dark:via-neutral-400"></div>
+  <p class="ps-6">Text</p>
+</div>
+              </div>
                     <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
                         <li><a href="#" class=" hover:text-gray-900">Início</a></li>
                         <li><a href="#" class="  hover:text-gray-900">Sobre</a></li>
