@@ -8,7 +8,7 @@
 
 
     <div id="tudo">
-      <div class="pages overflow-x-hidden h-screen panel flex items-center justify-center">
+      <div class="pages overflow-x-hidden overflow-y-hidden h-screen panel flex items-center justify-center">
 
         <div class="relative items-center justify-center w-full overflow-x-hidden lg:pt-40 lg:pb-40 xl:pt-40 xl:pb-64">
           <div
@@ -87,7 +87,7 @@
             <div class="relative z-50 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
               <div class="container relative left-0 w-full max-w-4xl lg:absolute xl:max-w-6xl lg:w-screen">
                 <img src="./img/macbook cotesi.svg"
-                  class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12"> 
+                  class="  mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12"> 
               </div>
             </div>
           </div>
@@ -232,7 +232,7 @@ button {
   /*celular */
   .description {
     margin-top: -40%;
-    padding-top: 15%;
+    padding-top: 20%;
     color: #002b5e;
     font-weight: 400;
     letter-spacing: -.03em;
