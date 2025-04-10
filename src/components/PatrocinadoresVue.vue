@@ -21,40 +21,40 @@
 
       
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
       </swiper-slide>
     </swiper>
 

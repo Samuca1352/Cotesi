@@ -5,7 +5,7 @@
     >
       <a href="/" class="relative flex items-center inline-block h-5 h-full font-black leading-none">
         <img class="w-auto h-20  fill-current"
-             src="../img/logo.png" alt="Logo">
+             src="../img/logo.svg" alt="Logo">
         <g fill-rule="evenodd">
           <path
             d="M96.869 0L30 116h104l-9.88-17.134H59.64l47.109-81.736zM0 116h19.831L77 17.135 67.088 0z" />
@@ -19,23 +19,23 @@
         :class="{ 'hidden': !isMobileMenuOpen }"
         class="absolute rounded top-0 left- z-50 flex flex-col items-center justify-between w-full h-64 pt-5 mt-24 text-sm text-gray-800 bg-white border-t border-gray-200 md:w-auto md:flex-row md:h-24 lg:text-base md:bg-transparent md:mt-0 md:border-none md:py-0 md:flex md:relative"
       >
-        <a href="#"
-           class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Início</a>
-        <a href="#features"
-           class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Sobre</a>
-        <a href="#pricing"
-           class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Apoiadores</a>
+        <button 
+           class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Início</button>
+        <button @click="emitSobre()"
+           class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Sobre</button>
+        <button @click="emitApoio()"
+           class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Apoiadores</button>
         <div class="flex flex-col block w-full font-medium border-t border-gray-200 md:hidden">
-          <a href="#_"
-             class="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-indigo-700 fold-bold">Inscreva-se</a>
+          <button @click="emitInscreva()"
+             class="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-indigo-700 fold-bold">Inscreva-se</button>
         </div>
       </nav>
 
       <div
         class="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between"
       >
-        <a href="#_"
-           class="relative z-40 ms-25 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-indigo-700 rounded left-10 shadow-md fold-bold lg:bg-white lg:text-indigo-700 sm:w-full lg:shadow-none hover:shadow-xl">Inscreva-Se</a>
+        <button @click="emitInscreva()"
+           class="relative z-40 ms-25 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-indigo-700 rounded left-10 shadow-md fold-bold lg:bg-white lg:text-indigo-700 sm:w-full lg:shadow-none hover:shadow-xl">Inscreva-Se</button>
         <svg class="absolute top-0 left-0 hidden w-screen max-w-3xl -mt-64 -ml-12 lg:block"
              viewBox="0 0 818 815" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <defs>
@@ -105,10 +105,22 @@
 import { ref } from 'vue';
 
 const isMobileMenuOpen = ref(false);
+const emit = defineEmits(['update:modelValue', 'customEvent']);
 
 const toggleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
+
+
+function emitSobre(){
+  emit('sobre');
+}
+function emitApoio(){
+  emit('apoio');
+}
+function emitInscreva(){
+  emit('inscrever');
+}
 </script>
 
 <style scoped>

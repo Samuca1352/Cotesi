@@ -71,7 +71,6 @@ function initGsapTitle() {
         start: "bottom center",
         end: "bottom 50px",
         scrub: 3,
-        markers: true,
       },
     });
 
@@ -87,7 +86,6 @@ function initGsapTitle() {
       start: "top top",
       end: "bottom 70%",
       pin: true,
-      markers: true,
       invalidateOnRefresh: true,
     });
 
@@ -108,7 +106,6 @@ function initGsapTitle() {
       start: "top top",
       end: "bottom 65%",
       pin: true,
-      markers: true,
       invalidateOnRefresh: true,
     });
   }
@@ -139,89 +136,7 @@ onUnmounted(() => {
 </script>
 
 
-<!-- <script setup>
-import { onMounted, ref } from 'vue';
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
 
-const larguraTela = ref(window.innerWidth); // Usar ref para reatividade
-let tl = null;
-let pintl=null;
-onMounted(() => {
-    function gsaptitle() {
-
-        if (verificaTela()) {
-            tl = gsap.timeline({
-                scrollTrigger: {
-                    trigger: "#title",
-                    toggleActions: "resume pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
-                    start: "top center", //elemento e página ou seja começa quando a parte de cima do elemento atinge o centro da pag
-                    end: "bottom 50px",
-                    scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
-                },
-            });
-            pintl = ScrollTrigger.create({
-                trigger: ".title",
-                endTrigger: ".description",
-                start: "top top",
-                end: "bottom 65%",
-                pin: true,
-                markers: true,
-
-            });
-            //   let gl = gsap.timeline({
-            //     scrollTrigger: {
-            //         trigger: ".description",
-            //         toggleActions: "restart pause reverse pause", //quando chega nele / quando passa dele / quando passa e volta nele
-            //         start: "top center", //elemento e página ou seja começa quando a parte de cima do elemento atinge o centro da pag
-            //         end: "bottom bottom",
-            //         scrub: 3, //vai junto com a página / pode ser true ou false ou um valor (suaviza mais)
-            //         markers: true, //marcadores
-            //     },
-            // });
-
-
-            tl.from('#title', {
-                x: -100,
-                duration: 3,
-            });
-        } else if(!verificaTela() && tl){
-            tl.kill();
-            tl = null;
-            // Reseta os estilos do elemento, se necessário
-            gsap.to('#title', { clearProps: "x" });
-            if (pintl) {
-                pintl.kill();
-                pintl = null;
-            }
-        }
-    }
-    // gl.to('.description', {
-    // y:-230,
-    // duration: 1,
-    // });
-
-
-
-    function verificaTela() {
-        return larguraTela.value > 800;
-    }
-
-
-    larguraTela.value = window.innerWidth;
-
-    // Inicializa o GSAP Calendar
-    gsaptitle();
-
-    // Adiciona listener para redimensionamento da tela
-    window.addEventListener('resize', () => {
-        larguraTela.value = window.innerWidth;
-        gsaptitle();
-    });
-})
-
-</script> -->
 <style lang="">
 
 </style>

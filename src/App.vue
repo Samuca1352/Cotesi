@@ -1,10 +1,10 @@
 <template>
   <div class="topo border-gray-200  flex justify-center  pt-3">
     <div class="container ">
-      <HeaderPage></HeaderPage>
+      <HeaderPage @sobre="lenis.scrollTo('#sobre')" @inscrever="lenis.scrollTo('#dia-1')" @apoio="lenis.scrollTo('#apoio')" ></HeaderPage>
     </div>
   </div>
-  <div id="ttudo">
+ 
 
 
     <div id="tudo">
@@ -20,8 +20,8 @@
               <p class="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Você está preparado para mais
                 uma semana de tecnologia cheia de novidades?</p>
               <button
-                class="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-indigo-600 border-t border-gray-200 rounded-md shadow-xl sm:mt-1 fold-bold lg:mx-0"
-                v-on:click="lenis.scrollTo('#calendar')">Inscreva-Se
+                class="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-blue-600 border-t border-gray-200 rounded-md shadow-xl sm:mt-1 fold-bold lg:mx-0"
+                @click="lenis.scrollTo('#dia-1')">Inscreva-Se
                 Agora</button>
               <!-- Integrates with section -->
               <div class="flex-col hidden mt-12 sm:flex lg:mt-24">
@@ -86,8 +86,8 @@
             </div>
             <div class="relative z-50 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
               <div class="container relative left-0 w-full max-w-4xl lg:absolute xl:max-w-6xl lg:w-screen">
-                <img src="./img/macbook cotesi.png"
-                  class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12">
+                <img src="./img/macbook cotesi.svg"
+                  class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12"> 
               </div>
             </div>
           </div>
@@ -96,11 +96,8 @@
 
       </div>
 
-      <div id="tesxc" class="black pages h-screen panel flex items-center justify-center"
-        style="background-color: #0176ff; ">
-        Mais espaço para simular conteúdo longo
-      </div>
-      <SobreNos></SobreNos>
+
+      <SobreNos id="sobre"></SobreNos>
       <div id="pcalendar" class="pages h-auto min-h-screen p-15 panel flex items-center justify-center">
 
         <CalendarDate id="calendar"></CalendarDate>
@@ -111,12 +108,12 @@
 
       </div>
       <div class="p-1 md:p-14">
-        <PatrocinadoresVue></PatrocinadoresVue>
+        <PatrocinadoresVue id="apoio"></PatrocinadoresVue>
       </div>
 
     </div>
- <FooterPage></FooterPage>
-  </div>
+ <FooterPage @inicio="lenis.scrollTo(0)"></FooterPage>
+  
 </template>
 
 <script setup>
@@ -149,7 +146,6 @@ function initGsapCalendar() {
         start: "top center",
         end: "top center",
         scrub: 3,
-        markers: true,
       },
     });
 
@@ -250,7 +246,7 @@ button {
 
   .description {
     width: 50vw;
-    padding-top: 63vh;
+    padding-top: 48vh;
     color: #002b5e;
     /* Ajuste para que seja maior que a altura do texto fixo */
   }
