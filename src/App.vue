@@ -133,6 +133,11 @@ const selected = "2025-05-08/2025-05-16";
 const larguraTela = ref(window.innerWidth); // Usar ref para reatividade
 let calendarTimeline = null; // Variável para armazenar a timeline do GSAP
 
+
+
+
+
+
 function verificaTela() {
   return larguraTela.value > 768;
 }
@@ -175,6 +180,8 @@ window.addEventListener('beforeunload', () => {
     immediate: true // Tenta ir para o topo antes de descarregar
   });
 })
+
+
 
 onMounted(() => {
   // Inicializa Lenis

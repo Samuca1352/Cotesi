@@ -71,56 +71,8 @@
         </button>
         <div id="content-12" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
 
+          <h1 class="text-gray-900  text-6xl text-center font-bold">EM BREVE</h1>
 
-          <div href="#"
-            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #0176ff; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              08:00 - 10:00h
-            </div>
-
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-gray-900">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
-          <div href="#"
-            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #002b5e; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              10:30 - 12:00h
-            </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
         </div>
 
 
@@ -142,55 +94,7 @@
           </span>
         </button>
         <div id="content-13" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-          <div href="#"
-            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #0176ff; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              08:00 - 10:00h
-            </div>
-
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-gray-900">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
-          <div href="#"
-            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #002b5e; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              10:30 - 12:00h
-            </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
+          <h1 class="text-gray-900  text-6xl text-center font-bold">EM BREVE</h1>
         </div>
       </div>
 
@@ -208,55 +112,7 @@
           </span>
         </button>
         <div id="content-14" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-          <div href="#"
-            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #0176ff; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              08:00 - 10:00h
-            </div>
-
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-gray-900">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
-          <div href="#"
-            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #002b5e; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              10:30 - 12:00h
-            </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
+          <h1 class="text-gray-900  text-6xl text-center font-bold">EM BREVE</h1>
         </div>
       </div>
 
@@ -274,55 +130,7 @@
           </span>
         </button>
         <div id="content-15" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-          <div href="#"
-            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #0176ff; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              08:00 - 10:00h
-            </div>
-
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-gray-900">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
-          <div href="#"
-            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #002b5e; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              10:30 - 12:00h
-            </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
+          <h1 class="text-gray-900  text-6xl text-center font-bold">EM BREVE</h1>
         </div>
       </div>
 
@@ -341,55 +149,7 @@
           </span>
         </button>
         <div id="content-16" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-          <div href="#"
-            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #0176ff; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              08:00 - 10:00h
-            </div>
-
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-gray-900">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
-          <div href="#"
-            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #002b5e; ">
-            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              10:30 - 12:00h
-            </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
-
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
-
-              <p class="mb-3 font-normal text-gray-700 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
-              </button>
-            </div>
-
-          </div>
+          <h1 class="text-gray-900  text-6xl text-center font-bold">EM BREVE</h1>
         </div>
       </div>
 
@@ -422,11 +182,11 @@ onMounted(() => {
 
 
 
-  
-  
-  
-  
-  
+
+
+
+
+
 })
 
 function toggleAccordion(index) {
