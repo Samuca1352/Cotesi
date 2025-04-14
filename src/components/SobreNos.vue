@@ -1,6 +1,6 @@
 <template>
   <div class="pages pagetitle lg:flex md:flex">
-    <div class="title panel h-screen text-gray-900 text-8xl flex items-center justify-center"
+    <div class="title panel h-screen text-gray-900  text-7xl sm:text-8xl mb-20 flex items-center justify-center"
       style="font-family: 'TuskerGrotesk'; width: 50vw; ">
       <div id="title" class="test text-wrap">
 
@@ -8,8 +8,8 @@
       </div>
     </div>
 
-    <div class="description panel flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
-      <div class="description panel flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
+    <div class="description panel  flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
+      <div class="description panel  flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
         <div class="p">
           O X Congresso de Tecnologia e Sistemas de Informação (COTESI) é uma iniciativa do corpo docente e dicente da área tecnológica
           do Câmpus Votuporanga. Este evento compreende a realização de palestras e minicursos direcionados

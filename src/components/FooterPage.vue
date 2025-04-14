@@ -4,7 +4,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto">
         <div class=" w-60 mx-auto rounded">
-          <img class="h-20 mx-auto" src="../img/logo2.svg">
+          <img loading="lazy" class="h-20 mx-auto" src="../img/logo2.svg">
           
         </div>
         <div class="flex mx-auto w-full justify-center items-center flex-col">
@@ -64,12 +64,13 @@
                                             
 </template>
 <script setup>
+
 const emit = defineEmits(['update:modelValue', 'customEvent']);
-
-
 function emitTopo(){
   emit('inicio');
 }
+
+
 </script>
 <style lang="">
 

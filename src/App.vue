@@ -14,8 +14,8 @@
           <div
             class="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
             <div
-              class="z-30 flex flex-col items-center w-full max-w-xl pt-48 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
-              <h1 class="relative mb-4 text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8">Conecte-se
+              class="z-30 flex flex-col items-center w-full max-w-xl pt-48 md:pt-80 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
+              <h1 class="relative mb-4 text-6xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8">Conecte-se
                 com a Inovação no Cotesi</h1>
               <p class="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Você está preparado para mais
                 uma semana de tecnologia cheia de novidades?</p>
@@ -27,7 +27,7 @@
               <div class="flex-col hidden mt-12 sm:flex lg:mt-24">
                 <p class="mb-4 text-sm font-medium tracking-widest text-gray-500 uppercase">Siga-nos nas Redes Sociais
                 </p>
-                <div class="flex">
+                <div class="flex justify-center lg:justify-start transition">
                   <a href="https://www.instagram.com/ifsp.cotesi/" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg"
                       class="h-8 mr-4 text-gray-500 duration-150 cursor-pointer fill-current transition-color hover:text-gray-600"
@@ -57,7 +57,7 @@
                 </a>
                 </div>
               </div>
-              <svg class="absolute left-0 max-w-md mt-24 -ml-64 left-svg" viewBox="0 0 423 423"
+              <svg class="absolute left-0 max-w-md w-150 2xl:mt-24 mt-15 transition-all   -ml-120 -mt-50 2xl:-ml-64 left-svg" viewBox="0 0 423 423"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
                   <linearGradient x1="100%" y1="0%" x2="4.48%" y2="0%" id="linearGradient-1">
@@ -85,8 +85,8 @@
               </svg>
             </div>
             <div class="relative z-50 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
-              <div class="container relative left-0 w-full max-w-4xl lg:absolute xl:max-w-6xl lg:w-screen">
-                <img src="./img/macbook cotesi.svg"
+              <div class="container relative left-0  max-w-4xl lg:absolute xl:max-w-6xl md:w-screen" >
+                <img src="./img/macbook-cotesi.svg" fetchpriority="high" style="width: 100vw" alt="macbook-cotesi"
                   class="  mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12"> 
               </div>
             </div>

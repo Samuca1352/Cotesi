@@ -3,8 +3,8 @@
     <div
       class="container  flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0"
     >
-      <a href="/" class="relative flex items-center inline-block h-5 h-full font-black leading-none">
-        <img class="w-auto size-8 mt-6  fill-current"
+      <button class="relative flex items-center inline-block h-5 h-full font-black leading-none">
+        <img class=" fill-current" style="height: 32px; width: 131;"
              src="../img/logo.svg" alt="Logo">
         <g fill-rule="evenodd">
           <path
@@ -12,7 +12,7 @@
           <path d="M87 68.732l9.926 17.143 29.893-51.59L174.15 116H194L126.817 0z" />
         </g>
         </img>
-      </a>
+      </button>
 
       <nav
         id="nav"

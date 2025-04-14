@@ -1,5 +1,5 @@
 <template>
-  <div  class="h-full w-full mb-15">
+  <div  class="h-full w-full mb-15 pt-15">
 
     <h3 class="relative text-center mb-4 font-black  text-gray-800 sm:text-5xl xl:mb-8 mb-5">APOIADORES</h3>
 
@@ -21,41 +21,31 @@
 
       
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img loading="lazy" src="../img/patrocinadores/facchini-logo.png" alt="Logo Facchini"></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/flash-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img loading="lazy" src="../img/patrocinadores/facchini-logo.png" alt="Logo Facchini"></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/flash-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img loading="lazy" src="../img/patrocinadores/facchini-logo.png" alt="Logo Facchini"></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/flash-logo.png" alt=""></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper "><img loading="lazy" src="../img/patrocinadores/facchini-logo.png" alt="Logo Facchini"></div>
       </swiper-slide>
       <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
+        <div class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/flash-logo.png" alt=""></div>
       </swiper-slide>
-      <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="ts-swiper "><img src="../img/patrocinadores/facchini-logo.png" alt=""></div>
-      </swiper-slide>
+      
+
     </swiper>
 
     
@@ -74,9 +64,7 @@ import { onMounted,ref } from 'vue';
 const autoplayConfig = ref(false); // Inicialmente desabilitado
 
 const larguraTela = ref(window.innerWidth); // Usar ref para reatividade
-onMounted(() => {
-  
-})
+
 
 
 </script>
@@ -85,11 +73,8 @@ onMounted(() => {
   max-width: 200px; /* Ajuste este valor conforme necessário */
   margin-left: auto;
   margin-right: auto; /* Para centralizar o conteúdo dentro do slide */
-  
 }
-.swiper-button-disabled{
-  overflow: hidden;
-}
+
 
 
 .swiper-slide {

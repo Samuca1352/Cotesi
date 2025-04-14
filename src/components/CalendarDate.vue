@@ -401,6 +401,16 @@ import { ref, onMounted } from 'vue';
 
 const selectedDay = ref(null);
 
+function hasBlueBg(day) {
+  const element = document.getElementById(`day-${day}`);
+  return element && element.classList.contains('bg-blue-600');
+}
+function selectDay(day) {
+  selectedDay.value = day;
+  toggleAccordion(day)
+  hasBlueBg(day)
+
+}
 onMounted(() => {
 
 
@@ -408,18 +418,16 @@ onMounted(() => {
     day: 'numeric'
   })
   selectDay(13); //Descomentar no mês do evento
+
+
+
+
+  
+  
+  
+  
+  
 })
-function selectDay(day) {
-  selectedDay.value = day;
-  toggleAccordion(day)
-
-}
-
-function hasBlueBg(day) {
-  const element = document.getElementById(`day-${day}`);
-  return element && element.classList.contains('bg-blue-600');
-}
-
 
 function toggleAccordion(index) {
   const content = document.getElementById(`content-${index}`);
@@ -464,7 +472,6 @@ function toggleAccordion(index) {
 
 
 }
-
 </script>
 
 <style scoped>
