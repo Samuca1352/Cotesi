@@ -1,7 +1,7 @@
 <template>
   <div class="topo border-gray-200  flex justify-center  pt-3">
     <div class="container ">
-      <HeaderPage @sobre="lenis.scrollTo('#sobre')" @inscrever="lenis.scrollTo('#dia-1')" @apoio="lenis.scrollTo('#apoio')" ></HeaderPage>
+      <HeaderPage @sobre="lenis.scrollTo('#sobre')" @inscrever="lenis.scrollTo('#calendar')" @apoio="lenis.scrollTo('#apoio')" ></HeaderPage>
     </div>
   </div>
  
@@ -21,7 +21,7 @@
                 uma semana de tecnologia cheia de novidades?</p>
               <button
                 class="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-blue-600 border-t border-gray-200 rounded-md shadow-xl sm:mt-1 fold-bold lg:mx-0"
-                @click="lenis.scrollTo('#dia-1')">Inscreva-Se
+                @click="lenis.scrollTo('#calendar')">Inscreva-Se
                 Agora</button>
               <!-- Integrates with section -->
               <div class="flex-col hidden mt-12 sm:flex lg:mt-24">

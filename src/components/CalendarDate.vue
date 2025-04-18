@@ -177,7 +177,7 @@ onMounted(() => {
   const diaMes = new Date().toLocaleDateString('pt-BR', {
     day: 'numeric'
   })
-  selectDay(13); //Descomentar no mês do evento
+ // selectDay(13); //Descomentar no mês do evento
 
 
 
