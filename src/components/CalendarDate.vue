@@ -79,20 +79,17 @@
               08:00 - 10:00h
             </div>
 
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes  md:rounded-none md:rounded-s-lg"
+              src="../img/palestrantes/Luiz Paulo Balduíno - Lucas de Albuquerque.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Qual a Missão de Um Provedor Hoje</h5>
 
-              <p class="mb-3 font-normal text-gray-700 text-gray-900">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p class="mb-3 font-normal text-gray-900 ">Um bate-papo descontraído sobre cibersegurança, práticas de proteção, privacidade, segurança em redes e os futuros desafios da inteligência artificial.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -103,20 +100,19 @@
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               10:30 - 12:00h
             </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg h-80  md:h-70  md:rounded-none md:rounded-s-lg"
+              src="../img/palestrantes/LucasAlbuquerque.png"
+              style="position: relative; top:-40px; ">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Cibersegurança: 
+                <br> Do básico ao amanhã</h5>
 
-              <p class="mb-3 font-normal text-gray-700 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p class="mb-3 font-normal text-gray-700 text-white">Venha entender o papel crucial dos provedores de internet no Brasil! Exploraremos a conexão do cliente, a infraestrutura dos ISPs, desafios, segurança, inovações como Wi-Fi 7 e o futuro da conectividade. Uma Visão por trás dos cabos!</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -149,9 +145,8 @@
               08:00 - 10:00h
             </div>
 
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -162,7 +157,7 @@
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -173,9 +168,8 @@
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               10:30 - 12:00h
             </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -186,7 +180,7 @@
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -215,9 +209,8 @@
               08:00 - 10:00h
             </div>
 
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -228,7 +221,7 @@
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -239,9 +232,8 @@
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               10:30 - 12:00h
             </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -252,7 +244,7 @@
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -281,9 +273,8 @@
               08:00 - 10:00h
             </div>
 
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -294,7 +285,7 @@
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -305,9 +296,8 @@
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               10:30 - 12:00h
             </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -318,7 +308,7 @@
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -348,9 +338,8 @@
               08:00 - 10:00h
             </div>
 
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -361,7 +350,7 @@
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -372,9 +361,8 @@
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               10:30 - 12:00h
             </div>
-                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png"
-              style="position: relative; top:-60px; ">
+                <img class=" rounded-t-lg  md:h-60 palestrantes  md:rounded-none md:rounded-s-lg"
+              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
@@ -385,7 +373,7 @@
                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscreva-se
+                Inscrições Em Breve
               </button>
             </div>
 
@@ -504,5 +492,9 @@ button.selected {
 .horario {
   top: 175px;
   left: 0;
+}
+.palestrantes{
+  position: relative;
+   top:-60px; 
 }
 </style>

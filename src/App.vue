@@ -21,8 +21,8 @@
                 uma semana de tecnologia cheia de novidades?</p>
               <button
                 class="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-blue-600 border-t border-gray-200 rounded-md shadow-xl sm:mt-1 fold-bold lg:mx-0"
-                @click="lenis.scrollTo('#dia-1')">Inscreva-Se
-                Agora</button>
+                @click="lenis.scrollTo('#dia-1')">Inscreva-se
+                agora</button>
               <!-- Integrates with section -->
               <div class="flex-col hidden mt-12 sm:flex lg:mt-24">
                 <p class="mb-4 text-sm font-medium tracking-widest text-gray-500 uppercase">Siga-nos nas Redes Sociais
