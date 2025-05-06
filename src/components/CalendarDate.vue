@@ -289,15 +289,13 @@
               10:00 - 11:30h
             </div>
                 <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
+              src="../img/palestrantes/JoaoCarlos.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">GitHub além do código — desenvolvendo pessoas, não só software</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">João Carlos mostra que Github é mais que código, é um espaço para aprender, colaborar e crescer na tecnologia.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -331,15 +329,13 @@
             </div>
 
                 <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
+              src="../img/palestrantes/LucasRibeiro.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Além do Código: Como a Flexibilidade Impulsiona sua Carreira</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Veja como experiências práticas e mudanças no mercado ensinam que adaptar-se é a chave para crescer na carreira tech.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
