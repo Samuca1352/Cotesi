@@ -79,14 +79,16 @@
               08:00 - 9:30h
             </div>
 
-                <img class=" rounded-t-lg  md:h-60 palestrantes  md:rounded-none md:rounded-s-lg"
-              src="../img/palestrantes/Luiz Paulo Balduíno - Lucas de Albuquerque.png">
+                <img class=" rounded-t-lg  md:h-70 palestrantes  md:rounded-none md:rounded-s-lg"
+              src="../img/palestrantes/LuizBalduinoLucasAlbuquerque.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
               <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Qual a Missão de Um Provedor Hoje</h5>
 
-              <p class="mb-3 font-normal text-gray-900 ">Um bate-papo descontraído sobre cibersegurança, práticas de proteção, privacidade, segurança em redes e os futuros desafios da inteligência artificial.</p>
+              <p class="mb-3 font-normal text-gray-900 ">Venha entender o papel crucial dos provedores de internet no
+                Brasil! Exploraremos a conexão do cliente, a infraestrutura dos ISPs, desafios, segurança, inovações
+                como Wi-Fi 7 e o futuro da conectividade. Uma Visão por trás dos cabos!</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -101,15 +103,18 @@
               10:00 - 11:30h
             </div>
                 <img class=" rounded-t-lg h-80  md:h-70  md:rounded-none md:rounded-s-lg"
-              src="../img/palestrantes/LucasAlbuquerque.png"
-              style="position: relative; top:-40px; ">
+              src="../img/palestrantes/LucasAlbuquerque.png" style="position: relative; top:-40px; ">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Cibersegurança: 
-                <br> Do básico ao amanhã</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Cibersegurança:
+                <br> Do básico ao amanhã
+              </h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Venha entender o papel crucial dos provedores de internet no Brasil! Exploraremos a conexão do cliente, a infraestrutura dos ISPs, desafios, segurança, inovações como Wi-Fi 7 e o futuro da conectividade. Uma Visão por trás dos cabos!</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">
+                Um bate-papo descontraído sobre cibersegurança, práticas de proteção, privacidade, segurança em redes e
+                os futuros desafios da inteligência artificial.
+              </p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -150,9 +155,11 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Mercado em Mutação: As Novas Regras do Jogo para Profissionais Inovadores</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Mercado em Mutação: As Novas
+                Regras do Jogo para Profissionais Inovadores</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Novos modelos de negócios; Inovação; Profissão e Soft Skills.</p>
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Novos modelos de negócios; Inovação; Profissão e
+                Soft Skills.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -164,16 +171,18 @@
             class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
             style="background-color: #002b5e; ">
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
-              10:00 - 11:30h
+              13:00 - 16:00h
             </div>
                 <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
               src="../img/palestrantes/Josue.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Criando Sites com Python: Introdução ao Django</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Criando Sites com
+                Python: Introdução ao Django</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Python e Django para iniciantes: crie seu primeiro site e entenda o desenvolvimento web.</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">Python e Django para iniciantes: crie seu primeiro
+                site e entenda o desenvolvimento web.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -210,16 +219,19 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Do Analista de Requisitos ao Product Owner: Navegando pelos Papéis em Negócios e Tecnologia</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Do Analista de Requisitos ao
+                Product Owner: Navegando pelos Papéis em Negócios e Tecnologia</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Analista de Requisitos, Negócios e Product Owner: diferenças, sinergias, mercado e tendências para profissionais multifuncionais na área.</p>
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Analista de Requisitos, Negócios e Product Owner:
+                diferenças, sinergias, mercado e tendências para profissionais multifuncionais na área.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
               </button>
             </div>
-
           </div>
+
+
           <div href="#"
             class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
             style="background-color: #002b5e; ">
@@ -231,16 +243,41 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Tecnologia em Movimento: Como os Dados Estão Transformando a Mobilidade Urbana</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Tecnologia em Movimento: Como
+                os Dados Estão Transformando a Mobilidade Urbana</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Venha entender como Dados de mobilidade urbana monitorados otimizam transporte e planejamento</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">Venha entender como Dados de mobilidade urbana
+                monitorados otimizam transporte e planejamento</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
               </button>
             </div>
-
           </div>
+
+
+          <div href="#"
+            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            style="background-color: #0176ff; ">
+            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
+              13:00 - 16:00h
+            </div>
+
+                <img class=" rounded-t-lg h-70  palestrantesq md:rounded-none md:rounded-s-lg"
+              src="../img/palestrantes/VitorFabio.png">
+
+                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
+
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Desbravando o Laravel: Construindo Aplicações Web Modernas com PHP</h5>
+
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Oficina introdutória ao Laravel (framework PHP): explore conceitos, arquitetura MVC, rotas, controllers, Blade, Eloquent ORM, autenticação e comandos Artisan. Ideal para entender aplicações Laravel e desenvolver projetos com produtividade.</p>
+              <button
+                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                Inscrições Em Breve
+              </button>
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -272,7 +309,8 @@
 
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">IA GENERATIVA COM .NET</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Venha conosco aprender como criar aplicativos mais inteligentes de forma rápida com IA Generativa em .NET</p>
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Venha conosco aprender como criar aplicativos mais
+                inteligentes de forma rápida com IA Generativa em .NET</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -291,9 +329,11 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">GitHub além do código — desenvolvendo pessoas, não só software</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">GitHub além do código -
+                desenvolvendo pessoas, não só software</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">João Carlos mostra que Github é mais que código, é um espaço para aprender, colaborar e crescer na tecnologia.</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">João Carlos mostra que Github é mais que código, é um
+                espaço para aprender, colaborar e crescer na tecnologia.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -331,9 +371,11 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Além do Código: Como a Flexibilidade Impulsiona sua Carreira</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Além do Código: Como a
+                Flexibilidade Impulsiona sua Carreira</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Veja como experiências práticas e mudanças no mercado ensinam que adaptar-se é a chave para crescer na carreira tech.</p>
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Veja como experiências práticas e mudanças no
+                mercado ensinam que adaptar-se é a chave para crescer na carreira tech.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -352,9 +394,11 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Performance de Rede com Cilium, eBPF e Gemini</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Performance de Rede com
+                Cilium, eBPF e Gemini</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Acompanhe como Cilium, eBPF e Gemini otimizam redes Kubernetes/Cloud-Native para performance, segurança e escalabilidade de microsserviços.</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">Acompanhe como Cilium, eBPF e Gemini otimizam redes
+                Kubernetes/Cloud-Native para performance, segurança e escalabilidade de microsserviços.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -393,11 +437,11 @@ onMounted(() => {
 
 
 
-  
-  
-  
-  
-  
+
+
+
+
+
 })
 
 function toggleAccordion(index) {
@@ -476,12 +520,14 @@ button.selected {
   top: 175px;
   left: 0;
 }
-.palestrantes{
+
+.palestrantes {
   position: relative;
-   top:-60px; 
+  top: -60px;
 }
-.palestrantesq{
+
+.palestrantesq {
   position: relative;
-   top:-40px; 
+  top: -40px;
 }
 </style>

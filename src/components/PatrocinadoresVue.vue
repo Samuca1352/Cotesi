@@ -28,27 +28,15 @@
       </swiper-slide>
       
       <swiper-slide>
-        <a class="ts-swiper " target="_blank" href="https://www.facchini.com.br/"><img loading="lazy" src="../img/patrocinadores/logoleticia.png" alt="Logo Facchini"></a>
+        <a class="ts-swiper " target="_blank" href="https://www.instagram.com/leticiaamandadoceria/"><img loading="lazy" src="../img/patrocinadores/logoleticia.png" alt="Logo Facchini"></a>
       </swiper-slide>
       <swiper-slide>
-        <a target="_blank" href="https://www.flashnetbrasil.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/logopapini.png" alt="Logo Flash Net"></a>
-      </swiper-slide>
-      <swiper-slide >
-        <a class="h-full w-full ts-swiper" target="_blank" href="https://www.facchini.com.br/"><img loading="lazy" src="../img/patrocinadores/facchini-logo.png" alt="Logo Facchini"></a>
+        <a target="_blank" href="https://www.papinipremoldados.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/logopapini.png" alt="Logo Flash Net"></a>
       </swiper-slide>
       <swiper-slide>
-        <a target="_blank" href="https://www.flashnetbrasil.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/flash-logo.png" alt="Logo Flash Net"></a>
-      </swiper-slide>
-      <swiper-slide>
-        <a target="_blank" href="https://itepbrasil.net/site/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/ITEPBrasil.png" alt="Logo Itep Brasil"></a>
+        <a target="_blank" href="https://www.furukawalatam.com/pt-br" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/LabrumaLightera.png" alt="Logo Flash Net"></a>
       </swiper-slide>
       
-      <swiper-slide>
-        <a class="ts-swiper " target="_blank" href="https://www.facchini.com.br/"><img loading="lazy" src="../img/patrocinadores/logoleticia.png" alt="Logo Facchini"></a>
-      </swiper-slide>
-      <swiper-slide>
-        <a target="_blank" href="https://www.flashnetbrasil.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/logopapini.png" alt="Logo Flash Net"></a>
-      </swiper-slide>
       
       
 
