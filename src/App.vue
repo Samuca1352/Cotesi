@@ -86,7 +86,7 @@
             </div>
             <div class="relative z-50 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
               <div class="container relative left-0  max-w-4xl lg:absolute xl:max-w-6xl md:w-screen" >
-                <img src="./img/macbook-cotesi.svg" fetchpriority="high" style="width: 100vw" alt="macbook-cotesi"
+                <img src="./img/macbook-cotesi.png" fetchpriority="high" style="width: 100vw" alt="macbook-cotesi"
                   class="  mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12"> 
               </div>
             </div>
