@@ -89,10 +89,12 @@
               <p class="mb-3 font-normal text-gray-900 ">Venha entender o papel crucial dos provedores de internet no
                 Brasil! Exploraremos a conexão do cliente, a infraestrutura dos ISPs, desafios, segurança, inovações
                 como Wi-Fi 7 e o futuro da conectividade. Uma Visão por trás dos cabos!</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12788/" target="_blank">
+                <button
+                  class="bg-white hover:bg-blue-500 w-full hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
 
           </div>
@@ -115,10 +117,12 @@
                 Um bate-papo descontraído sobre cibersegurança, práticas de proteção, privacidade, segurança em redes e
                 os futuros desafios da inteligência artificial.
               </p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12790/" target="_blank">
+                <button
+                  class="bg-white hover:bg-blue-500 w-full  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
 
           </div>
@@ -167,6 +171,9 @@
             </div>
 
           </div>
+
+
+
           <div href="#"
             class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
             style="background-color: #002b5e; ">
@@ -190,6 +197,32 @@
             </div>
 
           </div>
+
+          <div href="#"
+            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            style="background-color: #0176ff; ">
+            <div class="absolute font-bold horariotr bg-white z-100 rounded-e p-2">
+              8:00 - 17:00h
+            </div>
+
+                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg" src="../img/cabeamentos.png">
+
+                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
+
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa)
+                - FCP Fibras Opticas: Introdução às Fibras Ópticas</h5>
+
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
+                  class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
+              <a href="https://forms.gle/RHxGTxDP94BXxy8FA" target="_blank">
+                <button
+                  class="bg-white hover:bg-blue-500 w-full  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -268,13 +301,41 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Desbravando o Laravel: Construindo Aplicações Web Modernas com PHP</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Desbravando o
+                Laravel: Construindo Aplicações Web Modernas com PHP</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Oficina introdutória ao Laravel (framework PHP): explore conceitos, arquitetura MVC, rotas, controllers, Blade, Eloquent ORM, autenticação e comandos Artisan. Ideal para entender aplicações Laravel e desenvolver projetos com produtividade.</p>
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Oficina introdutória ao Laravel (framework PHP):
+                explore conceitos, arquitetura MVC, rotas, controllers, Blade, Eloquent ORM, autenticação e comandos
+                Artisan. Ideal para entender aplicações Laravel e desenvolver projetos com produtividade.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
               </button>
+            </div>
+          </div>
+
+          <div href="#"
+            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            style="background-color: #002b5e; ">
+            <div class="absolute font-bold horariotr bg-white z-100 rounded-e p-2">
+              9:00 - 16:00h
+            </div>
+
+                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg" src="../img/cabeamentos.png">
+
+                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
+
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa)
+                - FCP Fibras Opticas: Introdução às Fibras Ópticas</h5>
+
+              <p class="mb-3 font-normal text-white">Treinamento profissional <span class="font-bold">Gratuito</span>,
+                saiba mais no link (Confira os termos).</p>
+              <a href="https://forms.gle/RHxGTxDP94BXxy8FA" target="_blank">
+                <button
+                  class="bg-white hover:bg-blue-500 w-full  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
           </div>
 
@@ -296,7 +357,7 @@
         </button>
         <div id="content-15" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
           <div href="#"
-            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 mb-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
             style="background-color: #0176ff; ">
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               08:00 - 9:30h
@@ -305,21 +366,21 @@
                 <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
               src="../img/palestrantes/AlessandroLopes.png">
 
-                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
+                <div class="flex relative  mt-7 flex-col cards justify-between p-4 leading-normal">
 
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">IA GENERATIVA COM .NET</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Venha conosco aprender como criar aplicativos mais
                 inteligentes de forma rápida com IA Generativa em .NET</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              <a href=""><button
+                  class="bg-white hover:bg-blue-500 w-full hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscrições Em Breve
+                </button></a>
             </div>
 
           </div>
           <div href="#"
-            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center mt- bg-white border  border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
             style="background-color: #002b5e; ">
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               10:00 - 11:30h
@@ -341,6 +402,32 @@
             </div>
 
           </div>
+
+          <div href="#"
+            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            style="background-color: #0176ff; ">
+            <div class="absolute font-bold horariotr bg-white z-100 rounded-e p-2">
+              9:00 - 16:00h
+            </div>
+
+                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg" src="../img/cabeamentos.png">
+
+                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
+
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa)
+                - FCP Fibras Opticas: Introdução às Fibras Ópticas</h5>
+
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
+                  class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
+              <a href="https://forms.gle/RHxGTxDP94BXxy8FA" target="_blank">
+                <button
+                  class="bg-white hover:bg-blue-500 w-full  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -406,6 +493,33 @@
             </div>
 
           </div>
+
+
+          <div href="#"
+            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            style="background-color: #0176ff; ">
+            <div class="absolute font-bold horariotr bg-white z-100 rounded-e p-2">
+              9:00 - 13:00h
+            </div>
+
+                <img class=" rounded-t-lg  md:h-60  md:rounded-none md:rounded-s-lg" src="../img/cabeamentos.png">
+
+                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
+
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa)
+                - FCP Fibras Opticas: Introdução às Fibras Ópticas</h5>
+
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
+                  class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
+              <a href="https://forms.gle/RHxGTxDP94BXxy8FA" target="_blank">
+                <button
+                  class="bg-white hover:bg-blue-500 w-full  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -518,6 +632,11 @@ button.selected {
 
 .horario {
   top: 175px;
+  left: 0;
+}
+
+.horariotr {
+  top: 200px;
   left: 0;
 }
 
