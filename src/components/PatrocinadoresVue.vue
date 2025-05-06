@@ -1,8 +1,8 @@
 <template>
   <div  class="h-full w-full mb-15 pt-15">
 
-    <h3 class="relative text-center mb-4 font-black  text-gray-800 sm:text-5xl xl:mb-8 mb-5">APOIADORES</h3>
-
+    <h2 class="text-blue-600 font-sans text-lg  mb-2 text-center">Confiam no Nosso Projeto</h2>
+    <h3 class="relative text-center  font-black text-xl  mb-5 xl:mb-8 text-gray-800 sm:text-5xl ">APOIADORES</h3>
     <swiper   :slides-per-view="3" 
     :autoplay="{ // Configurações do autoplay
         delay: 2000, // Tempo em milissegundos entre os slides (opcional, padrão é 3000)
@@ -14,12 +14,25 @@
       :navigation="navigationEnabled ? { hideOnClick: true } : larguraTela>768"
     :centered-slides="true"
     :loop="true"
-    :pagination="{
-      hideOnClick: true
-    }"
       class="h-full overflow-x-hidden w-full select-none ">
 
       
+      <swiper-slide >
+        <a class="h-full w-full ts-swiper" target="_blank" href="https://www.facchini.com.br/"><img loading="lazy" src="../img/patrocinadores/facchini-logo.png" alt="Logo Facchini"></a>
+      </swiper-slide>
+      <swiper-slide>
+        <a target="_blank" href="https://www.flashnetbrasil.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/flash-logo.png" alt="Logo Flash Net"></a>
+      </swiper-slide>
+      <swiper-slide>
+        <a target="_blank" href="https://itepbrasil.net/site/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/ITEPBrasil.png" alt="Logo Itep Brasil"></a>
+      </swiper-slide>
+      
+      <swiper-slide>
+        <a class="ts-swiper " target="_blank" href="https://www.facchini.com.br/"><img loading="lazy" src="../img/patrocinadores/logoleticia.png" alt="Logo Facchini"></a>
+      </swiper-slide>
+      <swiper-slide>
+        <a target="_blank" href="https://www.flashnetbrasil.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/logopapini.png" alt="Logo Flash Net"></a>
+      </swiper-slide>
       <swiper-slide >
         <a class="h-full w-full ts-swiper" target="_blank" href="https://www.facchini.com.br/"><img loading="lazy" src="../img/patrocinadores/facchini-logo.png" alt="Logo Facchini"></a>
       </swiper-slide>
@@ -73,6 +86,7 @@ const larguraTela = ref(window.innerWidth); // Usar ref para reatividade
   /* Estilos base dos seus slides */
   opacity: 0.95; /* Opcional: para dar um destaque menor aos outros slides */
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Adiciona uma transição suave */
+  
 }
 
 .swiper-slide-active {

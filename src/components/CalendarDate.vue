@@ -167,15 +167,13 @@
               10:00 - 11:30h
             </div>
                 <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
+              src="../img/palestrantes/Josue.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Criando Sites com Python: Introdução ao Django</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">Python e Django para iniciantes: crie seu primeiro site e entenda o desenvolvimento web.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -350,15 +348,13 @@
               10:00 - 11:30h
             </div>
                 <img class=" rounded-t-lg  md:h-60 palestrantes  md:rounded-none md:rounded-s-lg"
-              src="https://luvizzotti.com.br/wp-content/uploads/2018/08/luvizzotti-banner-site.png">
+              src="../img/palestrantes/Cami.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Noteworthy
-                technology acquisitions 2021</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Performance de Rede com Cilium, eBPF e Gemini</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Here are the biggest enterprise
-                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">Acompanhe como Cilium, eBPF e Gemini otimizam redes Kubernetes/Cloud-Native para performance, segurança e escalabilidade de microsserviços.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -393,7 +389,6 @@ onMounted(() => {
   const diaMes = new Date().toLocaleDateString('pt-BR', {
     day: 'numeric'
   })
-  selectDay(13); //Descomentar no mês do evento
 
 
 
