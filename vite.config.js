@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [vue({
     template: {
       compilerOptions: {
-        isCustomElement: (tag) => ['calendar-range','calendar-month','calendar-date'].includes(tag),
       }
     }
   }),
