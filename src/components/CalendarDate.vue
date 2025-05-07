@@ -209,8 +209,7 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa)
-                - FCP Fibras Opticas: Introdução às Fibras Ópticas</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 1 de 4): Introdução às Fibras Ópticas</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
                   class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
@@ -325,7 +324,7 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas: Instalação de Redes Ópticas</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 2 de 4): Instalação de Redes Ópticas</h5>
 
               <p class="mb-3 font-normal text-white">Treinamento profissional <span class="font-bold">Gratuito</span>,
                 saiba mais no link (Confira os termos).</p>
@@ -413,7 +412,7 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas: Projeto e Certificação de Redes Ópticas</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 3 de 4): Projeto e Certificação de Redes Ópticas</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
                   class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
@@ -504,7 +503,7 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas: Prática e Montagem de Redes Ópticas</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 4 de 4): Prática e Montagem de Redes Ópticas</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
                   class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
