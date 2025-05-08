@@ -28,13 +28,16 @@
       </swiper-slide>
       
       <swiper-slide>
-        <a class="ts-swiper " target="_blank" href="https://www.instagram.com/leticiaamandadoceria/"><img loading="lazy" src="../img/patrocinadores/logoleticia.png" alt="Logo Facchini"></a>
+        <a class="ts-swiper " target="_blank" href="https://www.instagram.com/leticiaamandadoceria/"><img loading="lazy" src="../img/patrocinadores/logoleticia.png" alt="Logo Leticia Amanda Doceria"></a>
       </swiper-slide>
       <swiper-slide>
-        <a target="_blank" href="https://www.papinipremoldados.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/logopapini.png" alt="Logo Flash Net"></a>
+        <a target="_blank" href="https://www.papinipremoldados.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/logopapini.png" alt="Logo Papini Pré-Moldados"></a>
       </swiper-slide>
       <swiper-slide>
-        <a target="_blank" href="https://www.furukawalatam.com/pt-br" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/LabrumaLightera.png" alt="Logo Flash Net"></a>
+        <a target="_blank" href="http://www.institutolabruma.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/labruma.svg" alt="Logo LaBruma"></a>
+      </swiper-slide>
+      <swiper-slide>
+        <a target="_blank" href="https://www.furukawalatam.com/pt-br" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/lightera.svg" alt="Logo Lightera"></a>
       </swiper-slide>
       
       

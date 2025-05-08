@@ -181,15 +181,16 @@
               13:00 - 16:00h
             </div>
                 <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
-              src="../img/palestrantes/Josue.png">
+              src="../img/palestrantes/VitorFabio.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Criando Sites com
-                Python: Introdução ao Django</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Desbravando o
+                Laravel: Construindo Aplicações Web Modernas com PHP</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Python e Django para iniciantes: crie seu primeiro
-                site e entenda o desenvolvimento web.</p>
+              <p class="mb-3 font-normal text-gray-900 text-white">Oficina introdutória ao Laravel (framework PHP):
+                explore conceitos, arquitetura MVC, rotas, controllers, Blade, Eloquent ORM, autenticação e comandos
+                Artisan. Ideal para entender aplicações Laravel e desenvolver projetos com produtividade.</p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -296,16 +297,17 @@
             </div>
 
                 <img class=" rounded-t-lg h-70  palestrantesq md:rounded-none md:rounded-s-lg"
-              src="../img/palestrantes/VitorFabio.png">
+              src="../img/palestrantes/Josue.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Desbravando o
-                Laravel: Construindo Aplicações Web Modernas com PHP</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Criando Sites com
+                Python: Introdução ao Django</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Oficina introdutória ao Laravel (framework PHP):
-                explore conceitos, arquitetura MVC, rotas, controllers, Blade, Eloquent ORM, autenticação e comandos
-                Artisan. Ideal para entender aplicações Laravel e desenvolver projetos com produtividade.</p>
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">
+                Python e Django para iniciantes: crie seu primeiro
+                site e entenda o desenvolvimento web.
+                </p>
               <button
                 class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Inscrições Em Breve
@@ -375,8 +377,9 @@
                   Inscrições Em Breve
                 </button></a>
             </div>
-
           </div>
+
+
           <div href="#"
             class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center mt- bg-white border  border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
             style="background-color: #002b5e; ">
@@ -402,8 +405,31 @@
           </div>
 
           <div href="#"
-            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 mb-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
             style="background-color: #0176ff; ">
+            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
+              13:00 - 16:00h
+            </div>
+
+                <img class=" rounded-t-lg  h-70 palestrantesq md:rounded-none md:rounded-s-lg"
+              src="../img/palestrantes/EvelynAmaral.png">
+
+                <div class="flex relative  mt-7 flex-col cards justify-between p-4 leading-normal">
+
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Princípios Básicos e Configuração de Redes LAN</h5>
+
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Aprenda os fundamentos das redes locais (LAN), conheça os principais protocolos utilizados em redes domésticas e descubra como configurar sua própria rede de forma prática e eficiente.</p>
+              <a href=""><button
+                  class="bg-white hover:bg-blue-500 w-full hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscrições Em Breve
+                </button></a>
+            </div>
+          </div>
+
+
+          <div href="#"
+            class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            style="background-color: #002b5e ">
             <div class="absolute font-bold horariotr bg-white z-100 rounded-e p-2">
               9:00 - 16:00h
             </div>
@@ -414,7 +440,7 @@
 
               <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 3 de 4): Projeto e Certificação de Redes Ópticas</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
+              <p class="mb-3 font-normal text-white">Treinamento profissional <span
                   class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
               <a href="https://forms.gle/RHxGTxDP94BXxy8FA" target="_blank">
                 <button
