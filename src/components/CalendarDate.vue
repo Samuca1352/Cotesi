@@ -79,17 +79,23 @@
               08:00 - 9:30h
             </div>
 
-                <img class=" rounded-t-lg  md:h-70 palestrantes  md:rounded-none md:rounded-s-lg"
-              src="../img/palestrantes/LuizBalduinoLucasAlbuquerque.png">
+                <img class=" rounded-t-lg h-80 md:h-70 palestrantes  md:rounded-none md:rounded-s-lg"
+              src="../img/palestrantes/LucasAlbuquerque.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Qual a Missão de Um Provedor Hoje</h5>
 
-              <p class="mb-3 font-normal text-gray-900 ">Venha entender o papel crucial dos provedores de internet no
-                Brasil! Exploraremos a conexão do cliente, a infraestrutura dos ISPs, desafios, segurança, inovações
-                como Wi-Fi 7 e o futuro da conectividade. Uma Visão por trás dos cabos!</p>
-              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12788/" target="_blank">
+              <div class="bg-white md:w-2/3 rounded-full text-l font-bold text-center text-white mb-1"
+                style="background-color: #002b5e;">Lucas de Albuquerque</div>
+
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight  text-white">Cibersegurança:
+                <br> Do básico ao amanhã
+              </h5>
+
+              <p class="mb-3 font-normal text-gray-900 ">Um bate-papo descontraído sobre cibersegurança, práticas de
+                proteção, privacidade, segurança em redes e
+                os futuros desafios da inteligência artificial.</p>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12856/" target="_blank">
                 <button
                   class="bg-white hover:bg-blue-500 w-full hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                   Inscreva-se
@@ -104,20 +110,25 @@
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               10:00 - 11:30h
             </div>
-                <img class=" rounded-t-lg h-80  md:h-70  md:rounded-none md:rounded-s-lg"
-              src="../img/palestrantes/LucasAlbuquerque.png" style="position: relative; top:-40px; ">
+                <img class=" rounded-t-lg   md:h-70 palestrantes md:rounded-none md:rounded-s-lg"
+              src="../img/palestrantes/LuizBalduinoLucasAlbuquerque.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Cibersegurança:
-                <br> Do básico ao amanhã
+              <div class="bg-ac rounded text-start ps-3 mb-3 font-bold leading-5 md:w-5/6"> Lucas de Albuquerque & Luiz
+                Paulo Balduíno</div>
+
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">Qual a Missão de Um
+                Provedor
+                Hoje
               </h5>
 
               <p class="mb-3 font-normal text-gray-900 text-white">
-                Um bate-papo descontraído sobre cibersegurança, práticas de proteção, privacidade, segurança em redes e
-                os futuros desafios da inteligência artificial.
+                Venha entender o papel crucial dos provedores de internet no
+                Brasil! Exploraremos a conexão do cliente, a infraestrutura dos ISPs, desafios, segurança, inovações
+                como Wi-Fi 7 e o futuro da conectividade. Uma Visão por trás dos cabos!
               </p>
-              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12790/" target="_blank">
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12857/" target="_blank">
                 <button
                   class="bg-white hover:bg-blue-500 w-full  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                   Inscreva-se
@@ -159,15 +170,21 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Mercado em Mutação: As Novas
+              <div class="bg-white sm:w-1/2 rounded-full text-l font-bold text-center text-white mb-1"
+                style="background-color: #002b5e;">Roberta Zuculoto</div>
+
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 leading-6.5 text-white">Mercado
+                em Mutação: As Novas
                 Regras do Jogo para Profissionais Inovadores</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Novos modelos de negócios; Inovação; Profissão e
                 Soft Skills.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12791/" target="_blank">
+                <button
+                  class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
 
           </div>
@@ -178,30 +195,61 @@
             class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
             style="background-color: #002b5e; ">
             <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
+              10:00 - 11:30h
+            </div>
+                <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
+              src="../img/palestrantes/Michel.png">
+
+                <div class="flex relative flex-col cards justify-between p-4 leading-normal">
+
+              <div class="bg-ac rounded-full text-center font-bold sm:w-1/2 mb-1">Michel Rosa Simões</div>
+
+
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white"> Conhecimento para
+                conectar
+                o mundo</h5>
+
+              <p class="mb-3 font-normal text-gray-900 text-white">Uma visão do fascinante universo das comunicações
+                ópticas e as soluções inovadoras da Furukawa, incluindo como se capacitar e se certificar para atender
+                as demandas em redes de computação por Fibras Opticas, empregando melhores práticas de instalação e
+                soluções capazes de revolucionar a forma como nos conectamos.</p>
+              <button
+                class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                Inscrições Em Breve
+              </button>
+            </div>
+          </div>
+
+          <div href="#"
+            class="flex sm:flex-wrap relative lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
+            style="background-color: #0176ff; ">
+            <div class="absolute font-bold horario  bg-white z-100 rounded-e p-2">
               13:00 - 16:00h
             </div>
                 <img class=" rounded-t-lg  md:h-60 palestrantes md:rounded-none md:rounded-s-lg"
               src="../img/palestrantes/VitorFabio.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Desbravando o
+              <div class="bg-white sm:w-1/2 rounded-full text-l font-bold text-center text-white mb-1"
+                style="background-color: #002b5e;">Vitor Fábio</div>
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">Oficina -
+                Desbravando o
                 Laravel: Construindo Aplicações Web Modernas com PHP</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">Oficina introdutória ao Laravel (framework PHP):
+              <p class="mb-3 font-normal text-gray-900">Oficina introdutória ao Laravel (framework PHP):
                 explore conceitos, arquitetura MVC, rotas, controllers, Blade, Eloquent ORM, autenticação e comandos
                 Artisan. Ideal para entender aplicações Laravel e desenvolver projetos com produtividade.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12802/" target="_blank">
+                <button
+                  class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button></a>
             </div>
-
           </div>
 
           <div href="#"
             class="flex relative sm:flex-wrap lg:flex-nowrap flex-col items-center bg-white border mt-15 border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100  bg-gray-800 hover:bg-gray-700"
-            style="background-color: #0176ff; ">
+            style="background-color: #002b5e; ">
             <div class="absolute font-bold horariotr bg-white z-100 rounded-e p-2">
               8:00 - 17:00h
             </div>
@@ -210,10 +258,12 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 1 de 4): Introdução às Fibras Ópticas</h5>
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight  text-white">Treinamento Lightera(Furukawa)
+                - FCP Fibras
+                Opticas (parte 1 de 4): Introdução às Fibras Ópticas</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
-                  class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
+              <p class="mb-3 font-normal text-white">Treinamento profissional <span class="font-bold">Gratuito</span>,
+                saiba mais no link (Confira os termos).</p>
               <a href="https://forms.gle/RHxGTxDP94BXxy8FA" target="_blank">
                 <button
                   class="bg-white hover:bg-blue-500 w-full  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
@@ -252,15 +302,21 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Do Analista de Requisitos ao
+              <div class="bg-white sm:w-1/2 rounded-full text-l font-bold text-center text-white mb-1"
+                style="background-color: #002b5e;">Antônio (Prodesp)</div>
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">Do Analista de
+                Requisitos ao
                 Product Owner: Navegando pelos Papéis em Negócios e Tecnologia</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Analista de Requisitos, Negócios e Product Owner:
                 diferenças, sinergias, mercado e tendências para profissionais multifuncionais na área.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12792/" target="_blank">
+                <button
+                  class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
           </div>
 
@@ -275,16 +331,19 @@
               src="../img/palestrantes/MarianaDuarte.png">
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Tecnologia em Movimento: Como
+              <div class="bg-ac rounded-full text-center font-bold sm:w-1/2 mb-1">Mariana Duarte</div>
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">Tecnologia em
+                Movimento: Como
                 os Dados Estão Transformando a Mobilidade Urbana</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-white">Venha entender como Dados de mobilidade urbana
                 monitorados otimizam transporte e planejamento</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12793/" target="_blank">
+                <button
+                  class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
           </div>
 
@@ -301,17 +360,22 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Oficina - Criando Sites com
+              <div class="bg-ae sm:w-1/2 rounded-full text-l font-bold text-center text-white mb-1">Josué Teodoro</div>
+
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">Oficina - Criando
+                Sites com
                 Python: Introdução ao Django</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">
                 Python e Django para iniciantes: crie seu primeiro
                 site e entenda o desenvolvimento web.
-                </p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              </p>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12801/" target="_blank">
+                <button
+                  class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
           </div>
 
@@ -326,7 +390,9 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 2 de 4): Instalação de Redes Ópticas</h5>
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight  text-white">Treinamento Lightera(Furukawa)
+                - FCP Fibras
+                Opticas (parte 2 de 4): Instalação de Redes Ópticas</h5>
 
               <p class="mb-3 font-normal text-white">Treinamento profissional <span class="font-bold">Gratuito</span>,
                 saiba mais no link (Confira os termos).</p>
@@ -367,14 +433,15 @@
               src="../img/palestrantes/AlessandroLopes.png">
 
                 <div class="flex relative  mt-7 flex-col cards justify-between p-4 leading-normal">
-
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">IA GENERATIVA COM .NET</h5>
+              <div class="bg-ae sm:w-1/2 rounded-full text-l font-bold text-center text-white mb-1 mb-2">Alessandro Lopes</div>
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">IA GENERATIVA COM
+                .NET</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Venha conosco aprender como criar aplicativos mais
                 inteligentes de forma rápida com IA Generativa em .NET</p>
-              <a href=""><button
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12795/" target="_blank"><button
                   class="bg-white hover:bg-blue-500 w-full hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                  Inscrições Em Breve
+                  Inscreva-se
                 </button></a>
             </div>
           </div>
@@ -391,15 +458,20 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">GitHub além do código -
+              <div class="bg-ac rounded-full text-center font-bold sm:w-1/2 mb-1">João Carlos</div>
+
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">GitHub além do
+                código -
                 desenvolvendo pessoas, não só software</h5>
 
-              <p class="mb-3 font-normal text-gray-900 text-white">João Carlos mostra que Github é mais que código, é um
+              <p class="mb-3 font-normal text-gray-900 text-white">João Carlos mostra que GitHub é mais que código, é um
                 espaço para aprender, colaborar e crescer na tecnologia.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12796/" target="_blank">
+                <button
+                  class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
 
           </div>
@@ -416,12 +488,18 @@
 
                 <div class="flex relative  mt-7 flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Princípios Básicos e Configuração de Redes LAN</h5>
+              <div class="bg-ae sm:w-1/2 rounded-full text-l font-bold text-center text-white mb-1"
+               >Evelyn Amaral</div>
 
-              <p class="mb-3 font-normal text-gray-900 text-gray-900">Aprenda os fundamentos das redes locais (LAN), conheça os principais protocolos utilizados em redes domésticas e descubra como configurar sua própria rede de forma prática e eficiente.</p>
-              <a href=""><button
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">Princípios Básicos e
+                Configuração de Redes LAN</h5>
+
+              <p class="mb-3 font-normal text-gray-900 text-gray-900">Aprenda os fundamentos das redes locais (LAN),
+                conheça os principais protocolos utilizados em redes domésticas e descubra como configurar sua própria
+                rede de forma prática e eficiente.</p>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12850/" target="_blank"><button
                   class="bg-white hover:bg-blue-500 w-full hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                  Inscrições Em Breve
+                  Inscreva-se
                 </button></a>
             </div>
           </div>
@@ -438,10 +516,12 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 3 de 4): Projeto e Certificação de Redes Ópticas</h5>
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight  text-white">Treinamento Lightera(Furukawa)
+                - FCP Fibras
+                Opticas (parte 3 de 4): Projeto e Certificação de Redes Ópticas</h5>
 
-              <p class="mb-3 font-normal text-white">Treinamento profissional <span
-                  class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
+              <p class="mb-3 font-normal text-white">Treinamento profissional <span class="font-bold">Gratuito</span>,
+                saiba mais no link (Confira os termos).</p>
               <a href="https://forms.gle/RHxGTxDP94BXxy8FA" target="_blank">
                 <button
                   class="bg-white hover:bg-blue-500 w-full  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
@@ -481,15 +561,22 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Além do Código: Como a
+              <div class="bg-ae sm:w-1/2 rounded-full text-l font-bold text-center text-white mb-1"
+               >Lucas Ribeiro</div>
+
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">Além do Código: Como
+                a
                 Flexibilidade Impulsiona sua Carreira</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Veja como experiências práticas e mudanças no
                 mercado ensinam que adaptar-se é a chave para crescer na carreira tech.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12798/" target="_blank">
+                <button
+                  class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
 
           </div>
@@ -504,15 +591,20 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-800 text-white">Performance de Rede com
+              <div class="bg-ac rounded-full text-center font-bold md:sm:w-1/2 mb-1">Cami Martins</div>
+
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight leading-6.5 text-white">Performance de Rede
+                com
                 Cilium, eBPF e Gemini</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-white">Acompanhe como Cilium, eBPF e Gemini otimizam redes
                 Kubernetes/Cloud-Native para performance, segurança e escalabilidade de microsserviços.</p>
-              <button
-                class="bg-white hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Inscrições Em Breve
-              </button>
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12799/" target="_blank">
+                <button
+                  class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                  Inscreva-se
+                </button>
+              </a>
             </div>
 
           </div>
@@ -529,7 +621,9 @@
 
                 <div class="flex relative flex-col cards justify-between p-4 leading-normal">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Treinamento Lightera(Furukawa) - FCP Fibras Opticas (parte 4 de 4): Prática e Montagem de Redes Ópticas</h5>
+              <h5 class="mb-2 text-2xl font-bold leading-6.5 tracking-tight  text-white">Treinamento Lightera(Furukawa)
+                - FCP Fibras
+                Opticas (parte 4 de 4): Prática e Montagem de Redes Ópticas</h5>
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Treinamento profissional <span
                   class="font-bold">Gratuito</span>, saiba mais no link (Confira os termos).</p>
@@ -670,5 +764,15 @@ button.selected {
 .palestrantesq {
   position: relative;
   top: -40px;
+}
+
+.bg-ac {
+  background-color: #0176ff;
+  color: white;
+}
+
+.bg-ae {
+  background-color: #002b5e;
+  color: white;
 }
 </style>

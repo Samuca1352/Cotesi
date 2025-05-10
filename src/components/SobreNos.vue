@@ -9,8 +9,8 @@
     </div>
 
     <div class="description panel  flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
-      <div class="description panel  flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
-        <div class="p">
+      <div class="description panel sobrenos flex-wrap flex items-center justify-center " style="margin-bottom: 10vh;">
+        <div class="p ">
           O X Congresso de Tecnologia e Sistemas de Informação (COTESI) é uma iniciativa do corpo docente e dicente da área tecnológica
           do Câmpus Votuporanga. Este evento compreende a realização de palestras e minicursos direcionados
           ao

@@ -1,7 +1,7 @@
 <template>
   <div class="topo border-gray-200  flex justify-center  pt-3">
     <div class="container ">
-      <HeaderPage @sobre="lenis.scrollTo('#sobre')" @inscrever="lenis.scrollTo('#dia-1')" @apoio="lenis.scrollTo('#apoio')" ></HeaderPage>
+      <HeaderPage @sobre="lenis.scrollTo('.sobrenos')" @inscrever="lenis.scrollTo('#dia-1')" @apoio="lenis.scrollTo('#apoio')" ></HeaderPage>
     </div>
   </div>
  

@@ -4,18 +4,18 @@
     <h2 class="text-blue-600 font-sans text-lg  mb-2 text-center">Confiam no Nosso Projeto</h2>
     <h3 class="relative text-center  font-black text-xl  mb-5 xl:mb-8 text-gray-800 sm:text-5xl ">APOIADORES</h3>
     <swiper   :slides-per-view="3" 
+    :breakpoints="{768: {slidesPerView: 5} }" 
     :autoplay="{ // Configurações do autoplay
         delay: 2000, // Tempo em milissegundos entre os slides (opcional, padrão é 3000)
         disableOnInteraction: false, // Permite que o autoplay continue mesmo após a interação do usuário (opcional, padrão é true)
         pauseOnMouseEnter: true, // Pausa o autoplay ao passar o mouse (opcional, padrão é false)
         // reverseDirection: false, // Descomente para inverter a direção (opcional, padrão é false)
       }"
-    :breakpoints="{768: {slidesPerView: 5} }" 
       :navigation="navigationEnabled ? { hideOnClick: true } : larguraTela>768"
     :centered-slides="true"
     :loop="true"
       class="h-full overflow-x-hidden w-full select-none ">
-
+      
       
       <swiper-slide >
         <a class="h-full w-full ts-swiper" target="_blank" href="https://www.facchini.com.br/"><img loading="lazy" src="../img/patrocinadores/facchini-logo.png" alt="Logo Facchini"></a>
@@ -38,6 +38,9 @@
       </swiper-slide>
       <swiper-slide>
         <a target="_blank" href="https://www.furukawalatam.com/pt-br" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/lightera.svg" alt="Logo Lightera"></a>
+      </swiper-slide>
+      <swiper-slide>
+        <a target="_blank" href="https://github.com/" class="ts-swiper flex items-center h-full"><img loading="lazy" width="156px" src="../img/patrocinadores/GitHub.png" alt="Logo GitHub"></a>
       </swiper-slide>
       
       
