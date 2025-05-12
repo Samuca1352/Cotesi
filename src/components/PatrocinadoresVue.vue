@@ -26,10 +26,14 @@
       <swiper-slide>
         <a target="_blank" href="https://itepbrasil.net/site/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/ITEPBrasil.png" alt="Logo Itep Brasil"></a>
       </swiper-slide>
+      <swiper-slide>
+        <a target="_blank" href="https://github.com/" class="ts-swiper flex items-center h-full"><img loading="lazy" width="156px" src="../img/patrocinadores/GitHub.svg" alt="Logo GitHub"></a>
+      </swiper-slide>
       
       <swiper-slide>
         <a class="ts-swiper " target="_blank" href="https://www.instagram.com/leticiaamandadoceria/"><img loading="lazy" src="../img/patrocinadores/logoleticia.png" alt="Logo Leticia Amanda Doceria"></a>
-      </swiper-slide>
+      </swiper-slide
+      >
       <swiper-slide>
         <a target="_blank" href="https://www.papinipremoldados.com.br/" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/logopapini.png" alt="Logo Papini Pré-Moldados"></a>
       </swiper-slide>
@@ -38,9 +42,6 @@
       </swiper-slide>
       <swiper-slide>
         <a target="_blank" href="https://www.furukawalatam.com/pt-br" class="ts-swiper"><img loading="lazy"  src="../img/patrocinadores/lightera.svg" alt="Logo Lightera"></a>
-      </swiper-slide>
-      <swiper-slide>
-        <a target="_blank" href="https://github.com/" class="ts-swiper flex items-center h-full"><img loading="lazy" width="156px" src="../img/patrocinadores/GitHub.png" alt="Logo GitHub"></a>
       </swiper-slide>
       
       
