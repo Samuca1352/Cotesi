@@ -313,7 +313,7 @@
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Analista de Requisitos, Negócios e Product Owner:
                 diferenças, sinergias, mercado e tendências para profissionais multifuncionais na área.</p>
 
-              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12792/" target="_blank">
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12955/" target="_blank">
                 <button
                   class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                   Inscreva-se
@@ -340,7 +340,7 @@
 
               <p class="mb-3 font-normal text-gray-900 text-white">Venha entender como Dados de mobilidade urbana
                 monitorados otimizam transporte e planejamento</p>
-              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12793/" target="_blank">
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12959/" target="_blank">
                 <button
                   class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                   Inscreva-se
@@ -442,7 +442,7 @@
 
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Venha conosco aprender como criar aplicativos mais
                 inteligentes de forma rápida com IA Generativa em .NET</p>
-              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12795/" target="_blank"><button
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12961/" target="_blank"><button
                   class="bg-white hover:bg-blue-500 w-full hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                   Inscreva-se
                 </button></a>
@@ -469,7 +469,7 @@
 
               <p class="mb-3 font-normal text-gray-900 text-white">João Carlos mostra que GitHub é mais que código, é um
                 espaço para aprender, colaborar e crescer na tecnologia.</p>
-              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12796/" target="_blank">
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12960/" target="_blank">
                 <button
                   class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                   Inscreva-se
@@ -572,7 +572,7 @@
               <p class="mb-3 font-normal text-gray-900 text-gray-900">Veja como experiências práticas e mudanças no
                 mercado ensinam que adaptar-se é a chave para crescer na carreira tech.</p>
 
-              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12798/" target="_blank">
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12962/" target="_blank">
                 <button
                   class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                   Inscreva-se
@@ -600,7 +600,7 @@
 
               <p class="mb-3 font-normal text-gray-900 text-white">Acompanhe como Cilium, eBPF e Gemini otimizam redes
                 Kubernetes/Cloud-Native para performance, segurança e escalabilidade de microsserviços.</p>
-              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12799/" target="_blank">
+              <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/12964/" target="_blank">
                 <button
                   class="bg-white w-full hover:bg-blue-500  hover:scale-105 hover:bg-gray-300 transition-all text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                   Inscreva-se
